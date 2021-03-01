@@ -14,6 +14,11 @@
 		2485CDE925ED0AD4009D40D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2485CDE825ED0AD4009D40D4 /* Assets.xcassets */; };
 		2485CDEC25ED0AD4009D40D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2485CDEA25ED0AD4009D40D4 /* LaunchScreen.storyboard */; };
 		2485CDEF25ED0AD4009D40D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485CDEE25ED0AD4009D40D4 /* main.m */; };
+		2485CDFE25ED0C7E009D40D4 /* FanBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485CDFD25ED0C7E009D40D4 /* FanBaseViewController.m */; };
+		2485CE0325ED0C95009D40D4 /* FanBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485CE0225ED0C95009D40D4 /* FanBaseModel.m */; };
+		2485CE0725ED0CA8009D40D4 /* FanBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485CE0625ED0CA8009D40D4 /* FanBaseView.m */; };
+		2485CE0D25ED0D0B009D40D4 /* FanEditCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485CE0C25ED0D0B009D40D4 /* FanEditCellViewController.m */; };
+		2485CE1225ED0D38009D40D4 /* FanBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485CE1125ED0D38009D40D4 /* FanBaseTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +34,16 @@
 		2485CDEB25ED0AD4009D40D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2485CDED25ED0AD4009D40D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2485CDEE25ED0AD4009D40D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2485CDFC25ED0C7E009D40D4 /* FanBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FanBaseViewController.h; sourceTree = "<group>"; };
+		2485CDFD25ED0C7E009D40D4 /* FanBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanBaseViewController.m; sourceTree = "<group>"; };
+		2485CE0125ED0C95009D40D4 /* FanBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FanBaseModel.h; sourceTree = "<group>"; };
+		2485CE0225ED0C95009D40D4 /* FanBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanBaseModel.m; sourceTree = "<group>"; };
+		2485CE0525ED0CA8009D40D4 /* FanBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FanBaseView.h; sourceTree = "<group>"; };
+		2485CE0625ED0CA8009D40D4 /* FanBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanBaseView.m; sourceTree = "<group>"; };
+		2485CE0B25ED0D0B009D40D4 /* FanEditCellViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FanEditCellViewController.h; sourceTree = "<group>"; };
+		2485CE0C25ED0D0B009D40D4 /* FanEditCellViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanEditCellViewController.m; sourceTree = "<group>"; };
+		2485CE1025ED0D38009D40D4 /* FanBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FanBaseTableViewCell.h; sourceTree = "<group>"; };
+		2485CE1125ED0D38009D40D4 /* FanBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanBaseTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +76,7 @@
 		2485CDDB25ED0AD1009D40D4 /* ClassicsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2485CDF625ED0BD8009D40D4 /* class */,
 				2485CDDC25ED0AD1009D40D4 /* AppDelegate.h */,
 				2485CDDD25ED0AD1009D40D4 /* AppDelegate.m */,
 				2485CDDF25ED0AD1009D40D4 /* SceneDelegate.h */,
@@ -74,6 +90,79 @@
 				2485CDEE25ED0AD4009D40D4 /* main.m */,
 			);
 			path = ClassicsDemo;
+			sourceTree = "<group>";
+		};
+		2485CDF625ED0BD8009D40D4 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				2485CDF825ED0C19009D40D4 /* FuncClass */,
+				2485CDF725ED0BF5009D40D4 /* PublicClass */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		2485CDF725ED0BF5009D40D4 /* PublicClass */ = {
+			isa = PBXGroup;
+			children = (
+				2485CDFB25ED0C4C009D40D4 /* view */,
+				2485CDFA25ED0C3F009D40D4 /* model */,
+				2485CDF925ED0C28009D40D4 /* controller */,
+			);
+			path = PublicClass;
+			sourceTree = "<group>";
+		};
+		2485CDF825ED0C19009D40D4 /* FuncClass */ = {
+			isa = PBXGroup;
+			children = (
+				2485CE0925ED0CB9009D40D4 /* EditCell(编辑cell功能) */,
+			);
+			path = FuncClass;
+			sourceTree = "<group>";
+		};
+		2485CDF925ED0C28009D40D4 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				2485CDFC25ED0C7E009D40D4 /* FanBaseViewController.h */,
+				2485CDFD25ED0C7E009D40D4 /* FanBaseViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		2485CDFA25ED0C3F009D40D4 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				2485CE0125ED0C95009D40D4 /* FanBaseModel.h */,
+				2485CE0225ED0C95009D40D4 /* FanBaseModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		2485CDFB25ED0C4C009D40D4 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				2485CE0525ED0CA8009D40D4 /* FanBaseView.h */,
+				2485CE0625ED0CA8009D40D4 /* FanBaseView.m */,
+				2485CE1025ED0D38009D40D4 /* FanBaseTableViewCell.h */,
+				2485CE1125ED0D38009D40D4 /* FanBaseTableViewCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		2485CE0925ED0CB9009D40D4 /* EditCell(编辑cell功能) */ = {
+			isa = PBXGroup;
+			children = (
+				2485CE0A25ED0CE5009D40D4 /* controller */,
+			);
+			path = "EditCell(编辑cell功能)";
+			sourceTree = "<group>";
+		};
+		2485CE0A25ED0CE5009D40D4 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				2485CE0B25ED0D0B009D40D4 /* FanEditCellViewController.h */,
+				2485CE0C25ED0D0B009D40D4 /* FanEditCellViewController.m */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,6 +191,7 @@
 		2485CDD125ED0AD1009D40D4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = Fan;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					2485CDD825ED0AD1009D40D4 = {
@@ -145,9 +235,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2485CE1225ED0D38009D40D4 /* FanBaseTableViewCell.m in Sources */,
+				2485CE0D25ED0D0B009D40D4 /* FanEditCellViewController.m in Sources */,
+				2485CE0325ED0C95009D40D4 /* FanBaseModel.m in Sources */,
 				2485CDE425ED0AD1009D40D4 /* ViewController.m in Sources */,
 				2485CDDE25ED0AD1009D40D4 /* AppDelegate.m in Sources */,
+				2485CE0725ED0CA8009D40D4 /* FanBaseView.m in Sources */,
 				2485CDEF25ED0AD4009D40D4 /* main.m in Sources */,
+				2485CDFE25ED0C7E009D40D4 /* FanBaseViewController.m in Sources */,
 				2485CDE125ED0AD1009D40D4 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
