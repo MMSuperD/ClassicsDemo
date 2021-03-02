@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,15 @@
 		2485CE0725ED0CA8009D40D4 /* FanBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485CE0625ED0CA8009D40D4 /* FanBaseView.m */; };
 		2485CE0D25ED0D0B009D40D4 /* FanEditCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485CE0C25ED0D0B009D40D4 /* FanEditCellViewController.m */; };
 		2485CE1225ED0D38009D40D4 /* FanBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485CE1125ED0D38009D40D4 /* FanBaseTableViewCell.m */; };
+		2485CE7925ED1608009D40D4 /* UIView+FanExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485CE6B25ED1608009D40D4 /* UIView+FanExtension.m */; };
+		2485CE7A25ED1608009D40D4 /* UIView+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485CE6E25ED1608009D40D4 /* UIView+extension.m */; };
+		2485CE7B25ED1608009D40D4 /* UILabel+FanExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485CE7225ED1608009D40D4 /* UILabel+FanExtension.m */; };
+		2485CE7D25ED1608009D40D4 /* UIColor+FanExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485CE7725ED1608009D40D4 /* UIColor+FanExtension.m */; };
+		2485CE8325ED16B0009D40D4 /* FanBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485CE8225ED16B0009D40D4 /* FanBaseTableViewController.m */; };
+		24AAA22625ED1A3C001BB124 /* FanEditCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AAA22525ED1A3C001BB124 /* FanEditCellModel.m */; };
+		24AAA2BF25EDE44A001BB124 /* FanSelectDelecteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AAA2BE25EDE44A001BB124 /* FanSelectDelecteView.m */; };
+		24AAA2C425EDE5A7001BB124 /* FanEditTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AAA2C325EDE5A7001BB124 /* FanEditTableViewCell.m */; };
+		FEF73A61DD929F6098EA3E26 /* Pods_ClassicsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62435D95371F511EF436ED3E /* Pods_ClassicsDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +53,27 @@
 		2485CE0C25ED0D0B009D40D4 /* FanEditCellViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanEditCellViewController.m; sourceTree = "<group>"; };
 		2485CE1025ED0D38009D40D4 /* FanBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FanBaseTableViewCell.h; sourceTree = "<group>"; };
 		2485CE1125ED0D38009D40D4 /* FanBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanBaseTableViewCell.m; sourceTree = "<group>"; };
+		2485CE1425ED0EA9009D40D4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2485CE6B25ED1608009D40D4 /* UIView+FanExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FanExtension.m"; sourceTree = "<group>"; };
+		2485CE6C25ED1608009D40D4 /* UIView+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+extension.h"; sourceTree = "<group>"; };
+		2485CE6D25ED1608009D40D4 /* UIView+FanExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FanExtension.h"; sourceTree = "<group>"; };
+		2485CE6E25ED1608009D40D4 /* UIView+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+extension.m"; sourceTree = "<group>"; };
+		2485CE7025ED1608009D40D4 /* FanBaseFunTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FanBaseFunTool.h; sourceTree = "<group>"; };
+		2485CE7225ED1608009D40D4 /* UILabel+FanExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+FanExtension.m"; sourceTree = "<group>"; };
+		2485CE7525ED1608009D40D4 /* UILabel+FanExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+FanExtension.h"; sourceTree = "<group>"; };
+		2485CE7725ED1608009D40D4 /* UIColor+FanExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FanExtension.m"; sourceTree = "<group>"; };
+		2485CE7825ED1608009D40D4 /* UIColor+FanExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FanExtension.h"; sourceTree = "<group>"; };
+		2485CE8125ED16B0009D40D4 /* FanBaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FanBaseTableViewController.h; sourceTree = "<group>"; };
+		2485CE8225ED16B0009D40D4 /* FanBaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanBaseTableViewController.m; sourceTree = "<group>"; };
+		24AAA22425ED1A3C001BB124 /* FanEditCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FanEditCellModel.h; sourceTree = "<group>"; };
+		24AAA22525ED1A3C001BB124 /* FanEditCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanEditCellModel.m; sourceTree = "<group>"; };
+		24AAA2BD25EDE44A001BB124 /* FanSelectDelecteView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FanSelectDelecteView.h; sourceTree = "<group>"; };
+		24AAA2BE25EDE44A001BB124 /* FanSelectDelecteView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanSelectDelecteView.m; sourceTree = "<group>"; };
+		24AAA2C225EDE5A7001BB124 /* FanEditTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FanEditTableViewCell.h; sourceTree = "<group>"; };
+		24AAA2C325EDE5A7001BB124 /* FanEditTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanEditTableViewCell.m; sourceTree = "<group>"; };
+		2CBFB622643C4228808D9D90 /* Pods-ClassicsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassicsDemo.release.xcconfig"; path = "Target Support Files/Pods-ClassicsDemo/Pods-ClassicsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		62435D95371F511EF436ED3E /* Pods_ClassicsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClassicsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1B4E3197918E86E914E7A48 /* Pods-ClassicsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassicsDemo.debug.xcconfig"; path = "Target Support Files/Pods-ClassicsDemo/Pods-ClassicsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEF73A61DD929F6098EA3E26 /* Pods_ClassicsDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +93,8 @@
 			children = (
 				2485CDDB25ED0AD1009D40D4 /* ClassicsDemo */,
 				2485CDDA25ED0AD1009D40D4 /* Products */,
+				7DA4A413DF9F1951172368F7 /* Pods */,
+				63C552F4FBCA97DEFDA43F40 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +116,7 @@
 				2485CDE025ED0AD1009D40D4 /* SceneDelegate.m */,
 				2485CDE225ED0AD1009D40D4 /* ViewController.h */,
 				2485CDE325ED0AD1009D40D4 /* ViewController.m */,
+				2485CE1425ED0EA9009D40D4 /* PrefixHeader.pch */,
 				2485CDE525ED0AD1009D40D4 /* Main.storyboard */,
 				2485CDE825ED0AD4009D40D4 /* Assets.xcassets */,
 				2485CDEA25ED0AD4009D40D4 /* LaunchScreen.storyboard */,
@@ -95,6 +129,7 @@
 		2485CDF625ED0BD8009D40D4 /* class */ = {
 			isa = PBXGroup;
 			children = (
+				2485CE6825ED15C4009D40D4 /* PublicTools */,
 				2485CDF825ED0C19009D40D4 /* FuncClass */,
 				2485CDF725ED0BF5009D40D4 /* PublicClass */,
 			);
@@ -124,6 +159,8 @@
 			children = (
 				2485CDFC25ED0C7E009D40D4 /* FanBaseViewController.h */,
 				2485CDFD25ED0C7E009D40D4 /* FanBaseViewController.m */,
+				2485CE8125ED16B0009D40D4 /* FanBaseTableViewController.h */,
+				2485CE8225ED16B0009D40D4 /* FanBaseTableViewController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -151,6 +188,8 @@
 		2485CE0925ED0CB9009D40D4 /* EditCell(编辑cell功能) */ = {
 			isa = PBXGroup;
 			children = (
+				24AAA2BC25EDE406001BB124 /* view */,
+				24AAA22325ED1A04001BB124 /* model */,
 				2485CE0A25ED0CE5009D40D4 /* controller */,
 			);
 			path = "EditCell(编辑cell功能)";
@@ -165,6 +204,99 @@
 			path = controller;
 			sourceTree = "<group>";
 		};
+		2485CE6825ED15C4009D40D4 /* PublicTools */ = {
+			isa = PBXGroup;
+			children = (
+				2485CE6925ED15E3009D40D4 /* category */,
+			);
+			path = PublicTools;
+			sourceTree = "<group>";
+		};
+		2485CE6925ED15E3009D40D4 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				2485CE6F25ED1608009D40D4 /* OK_END */,
+				2485CE7625ED1608009D40D4 /* UIColor */,
+				2485CE7125ED1608009D40D4 /* UILabel */,
+				2485CE6A25ED1608009D40D4 /* UIView */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		2485CE6A25ED1608009D40D4 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				2485CE6B25ED1608009D40D4 /* UIView+FanExtension.m */,
+				2485CE6C25ED1608009D40D4 /* UIView+extension.h */,
+				2485CE6D25ED1608009D40D4 /* UIView+FanExtension.h */,
+				2485CE6E25ED1608009D40D4 /* UIView+extension.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		2485CE6F25ED1608009D40D4 /* OK_END */ = {
+			isa = PBXGroup;
+			children = (
+				2485CE7025ED1608009D40D4 /* FanBaseFunTool.h */,
+			);
+			path = OK_END;
+			sourceTree = "<group>";
+		};
+		2485CE7125ED1608009D40D4 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				2485CE7225ED1608009D40D4 /* UILabel+FanExtension.m */,
+				2485CE7525ED1608009D40D4 /* UILabel+FanExtension.h */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		2485CE7625ED1608009D40D4 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				2485CE7725ED1608009D40D4 /* UIColor+FanExtension.m */,
+				2485CE7825ED1608009D40D4 /* UIColor+FanExtension.h */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		24AAA22325ED1A04001BB124 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				24AAA22425ED1A3C001BB124 /* FanEditCellModel.h */,
+				24AAA22525ED1A3C001BB124 /* FanEditCellModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		24AAA2BC25EDE406001BB124 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				24AAA2BD25EDE44A001BB124 /* FanSelectDelecteView.h */,
+				24AAA2BE25EDE44A001BB124 /* FanSelectDelecteView.m */,
+				24AAA2C225EDE5A7001BB124 /* FanEditTableViewCell.h */,
+				24AAA2C325EDE5A7001BB124 /* FanEditTableViewCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		63C552F4FBCA97DEFDA43F40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62435D95371F511EF436ED3E /* Pods_ClassicsDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DA4A413DF9F1951172368F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1B4E3197918E86E914E7A48 /* Pods-ClassicsDemo.debug.xcconfig */,
+				2CBFB622643C4228808D9D90 /* Pods-ClassicsDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -172,9 +304,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2485CDF225ED0AD4009D40D4 /* Build configuration list for PBXNativeTarget "ClassicsDemo" */;
 			buildPhases = (
+				C093A8E50E6FAB03098501F5 /* [CP] Check Pods Manifest.lock */,
 				2485CDD525ED0AD1009D40D4 /* Sources */,
 				2485CDD625ED0AD1009D40D4 /* Frameworks */,
 				2485CDD725ED0AD1009D40D4 /* Resources */,
+				B03164AEB41F8319279C9CA4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,19 +364,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B03164AEB41F8319279C9CA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClassicsDemo/Pods-ClassicsDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClassicsDemo/Pods-ClassicsDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClassicsDemo/Pods-ClassicsDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C093A8E50E6FAB03098501F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClassicsDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2485CDD525ED0AD1009D40D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24AAA2C425EDE5A7001BB124 /* FanEditTableViewCell.m in Sources */,
+				2485CE8325ED16B0009D40D4 /* FanBaseTableViewController.m in Sources */,
+				2485CE7B25ED1608009D40D4 /* UILabel+FanExtension.m in Sources */,
 				2485CE1225ED0D38009D40D4 /* FanBaseTableViewCell.m in Sources */,
 				2485CE0D25ED0D0B009D40D4 /* FanEditCellViewController.m in Sources */,
 				2485CE0325ED0C95009D40D4 /* FanBaseModel.m in Sources */,
 				2485CDE425ED0AD1009D40D4 /* ViewController.m in Sources */,
 				2485CDDE25ED0AD1009D40D4 /* AppDelegate.m in Sources */,
+				24AAA2BF25EDE44A001BB124 /* FanSelectDelecteView.m in Sources */,
 				2485CE0725ED0CA8009D40D4 /* FanBaseView.m in Sources */,
+				2485CE7D25ED1608009D40D4 /* UIColor+FanExtension.m in Sources */,
+				2485CE7A25ED1608009D40D4 /* UIView+extension.m in Sources */,
+				24AAA22625ED1A3C001BB124 /* FanEditCellModel.m in Sources */,
 				2485CDEF25ED0AD4009D40D4 /* main.m in Sources */,
 				2485CDFE25ED0C7E009D40D4 /* FanBaseViewController.m in Sources */,
+				2485CE7925ED1608009D40D4 /* UIView+FanExtension.m in Sources */,
 				2485CDE125ED0AD1009D40D4 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,11 +567,13 @@
 		};
 		2485CDF325ED0AD4009D40D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1B4E3197918E86E914E7A48 /* Pods-ClassicsDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6GG862H69N;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ClassicsDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = ClassicsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -401,11 +587,13 @@
 		};
 		2485CDF425ED0AD4009D40D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CBFB622643C4228808D9D90 /* Pods-ClassicsDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6GG862H69N;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ClassicsDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = ClassicsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

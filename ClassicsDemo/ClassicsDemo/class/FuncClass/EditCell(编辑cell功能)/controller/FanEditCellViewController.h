@@ -5,11 +5,11 @@
 //  Created by xzmac on 2021/3/1.
 //
 
-#import "FanBaseViewController.h"
+#import "FanBaseTableViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface FanEditCellViewController : FanBaseViewController
+@interface FanEditCellViewController : FanBaseTableViewController
 
 @end
 

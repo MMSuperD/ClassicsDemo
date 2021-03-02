@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  ClassicsDemo
+//
+//  Created by xzmac on 2021/3/1.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#import <Masonry/Masonry.h>
+#import <YYModel/YYModel.h>
+#import "FanBaseFunTool.h"
+
+#endif /* PrefixHeader_pch */

@@ -9,6 +9,15 @@
 
 @implementation FanBaseView
 
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self addChildView];
+    }
+    return self;
+}
+
 - (void)addChildView{
     
 }
