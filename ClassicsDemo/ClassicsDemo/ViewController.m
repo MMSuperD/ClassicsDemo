@@ -73,6 +73,17 @@
             @"title":@"EditCell(编辑Cell功能)",
             @"class":@"FanEditCellViewController"
         }];
+        
+        _dictArray = [NSMutableArray arrayWithObjects:
+                      @{
+                          @"title":@"EditCell(编辑Cell功能)",
+                          @"class":@"FanEditCellViewController"
+                      },
+                      @{
+                          @"title":@"ScrollUnitView(滚动单元View功能)",
+                          @"class":@"FanScrollUnitViewController"
+                      },
+                      nil];
     }
     return _dictArray;
 }

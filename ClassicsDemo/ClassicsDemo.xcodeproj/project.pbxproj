@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		245308BE25EF2C560070E9AA /* FanScrollUnitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245308BD25EF2C560070E9AA /* FanScrollUnitViewController.m */; };
+		245308C225EF2EA60070E9AA /* FanScrollUnitCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 245308C125EF2EA60070E9AA /* FanScrollUnitCell.m */; };
+		245308C625EF2EDC0070E9AA /* FanScrollUnitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 245308C525EF2EDC0070E9AA /* FanScrollUnitView.m */; };
+		245308CA25EF5B790070E9AA /* FanBaseCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 245308C925EF5B790070E9AA /* FanBaseCollectionCell.m */; };
+		245308CE25EF5C740070E9AA /* FanScrollCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 245308CD25EF5C740070E9AA /* FanScrollCollectionCell.m */; };
+		245308D525EF73BE0070E9AA /* FanScrollIndicateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 245308D425EF73BE0070E9AA /* FanScrollIndicateView.m */; };
 		2485CDDE25ED0AD1009D40D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485CDDD25ED0AD1009D40D4 /* AppDelegate.m */; };
 		2485CDE125ED0AD1009D40D4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485CDE025ED0AD1009D40D4 /* SceneDelegate.m */; };
 		2485CDE425ED0AD1009D40D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485CDE325ED0AD1009D40D4 /* ViewController.m */; };
@@ -31,6 +37,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		245308BC25EF2C560070E9AA /* FanScrollUnitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FanScrollUnitViewController.h; sourceTree = "<group>"; };
+		245308BD25EF2C560070E9AA /* FanScrollUnitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanScrollUnitViewController.m; sourceTree = "<group>"; };
+		245308C025EF2EA60070E9AA /* FanScrollUnitCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FanScrollUnitCell.h; sourceTree = "<group>"; };
+		245308C125EF2EA60070E9AA /* FanScrollUnitCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanScrollUnitCell.m; sourceTree = "<group>"; };
+		245308C425EF2EDC0070E9AA /* FanScrollUnitView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FanScrollUnitView.h; sourceTree = "<group>"; };
+		245308C525EF2EDC0070E9AA /* FanScrollUnitView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanScrollUnitView.m; sourceTree = "<group>"; };
+		245308C825EF5B790070E9AA /* FanBaseCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FanBaseCollectionCell.h; sourceTree = "<group>"; };
+		245308C925EF5B790070E9AA /* FanBaseCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanBaseCollectionCell.m; sourceTree = "<group>"; };
+		245308CC25EF5C740070E9AA /* FanScrollCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FanScrollCollectionCell.h; sourceTree = "<group>"; };
+		245308CD25EF5C740070E9AA /* FanScrollCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanScrollCollectionCell.m; sourceTree = "<group>"; };
+		245308D325EF73BE0070E9AA /* FanScrollIndicateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FanScrollIndicateView.h; sourceTree = "<group>"; };
+		245308D425EF73BE0070E9AA /* FanScrollIndicateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanScrollIndicateView.m; sourceTree = "<group>"; };
 		2485CDD925ED0AD1009D40D4 /* ClassicsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassicsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2485CDDC25ED0AD1009D40D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2485CDDD25ED0AD1009D40D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -88,6 +106,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		245308B825EF2BC40070E9AA /* ScrollUnitView */ = {
+			isa = PBXGroup;
+			children = (
+				245308BB25EF2C200070E9AA /* controller */,
+				245308BA25EF2C110070E9AA /* view */,
+				245308B925EF2BE90070E9AA /* model */,
+			);
+			path = ScrollUnitView;
+			sourceTree = "<group>";
+		};
+		245308B925EF2BE90070E9AA /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		245308BA25EF2C110070E9AA /* view */ = {
+			isa = PBXGroup;
+			children = (
+				245308C025EF2EA60070E9AA /* FanScrollUnitCell.h */,
+				245308C125EF2EA60070E9AA /* FanScrollUnitCell.m */,
+				245308C425EF2EDC0070E9AA /* FanScrollUnitView.h */,
+				245308C525EF2EDC0070E9AA /* FanScrollUnitView.m */,
+				245308CC25EF5C740070E9AA /* FanScrollCollectionCell.h */,
+				245308CD25EF5C740070E9AA /* FanScrollCollectionCell.m */,
+				245308D325EF73BE0070E9AA /* FanScrollIndicateView.h */,
+				245308D425EF73BE0070E9AA /* FanScrollIndicateView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		245308BB25EF2C200070E9AA /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				245308BC25EF2C560070E9AA /* FanScrollUnitViewController.h */,
+				245308BD25EF2C560070E9AA /* FanScrollUnitViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
 		2485CDD025ED0AD1009D40D4 = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +208,7 @@
 		2485CDF825ED0C19009D40D4 /* FuncClass */ = {
 			isa = PBXGroup;
 			children = (
+				245308B825EF2BC40070E9AA /* ScrollUnitView */,
 				2485CE0925ED0CB9009D40D4 /* EditCell(编辑cell功能) */,
 			);
 			path = FuncClass;
@@ -181,6 +241,8 @@
 				2485CE0625ED0CA8009D40D4 /* FanBaseView.m */,
 				2485CE1025ED0D38009D40D4 /* FanBaseTableViewCell.h */,
 				2485CE1125ED0D38009D40D4 /* FanBaseTableViewCell.m */,
+				245308C825EF5B790070E9AA /* FanBaseCollectionCell.h */,
+				245308C925EF5B790070E9AA /* FanBaseCollectionCell.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -414,7 +476,10 @@
 				24AAA2C425EDE5A7001BB124 /* FanEditTableViewCell.m in Sources */,
 				2485CE8325ED16B0009D40D4 /* FanBaseTableViewController.m in Sources */,
 				2485CE7B25ED1608009D40D4 /* UILabel+FanExtension.m in Sources */,
+				245308CA25EF5B790070E9AA /* FanBaseCollectionCell.m in Sources */,
+				245308C225EF2EA60070E9AA /* FanScrollUnitCell.m in Sources */,
 				2485CE1225ED0D38009D40D4 /* FanBaseTableViewCell.m in Sources */,
+				245308C625EF2EDC0070E9AA /* FanScrollUnitView.m in Sources */,
 				2485CE0D25ED0D0B009D40D4 /* FanEditCellViewController.m in Sources */,
 				2485CE0325ED0C95009D40D4 /* FanBaseModel.m in Sources */,
 				2485CDE425ED0AD1009D40D4 /* ViewController.m in Sources */,
@@ -422,10 +487,13 @@
 				24AAA2BF25EDE44A001BB124 /* FanSelectDelecteView.m in Sources */,
 				2485CE0725ED0CA8009D40D4 /* FanBaseView.m in Sources */,
 				2485CE7D25ED1608009D40D4 /* UIColor+FanExtension.m in Sources */,
+				245308BE25EF2C560070E9AA /* FanScrollUnitViewController.m in Sources */,
 				2485CE7A25ED1608009D40D4 /* UIView+extension.m in Sources */,
 				24AAA22625ED1A3C001BB124 /* FanEditCellModel.m in Sources */,
 				2485CDEF25ED0AD4009D40D4 /* main.m in Sources */,
+				245308CE25EF5C740070E9AA /* FanScrollCollectionCell.m in Sources */,
 				2485CDFE25ED0C7E009D40D4 /* FanBaseViewController.m in Sources */,
+				245308D525EF73BE0070E9AA /* FanScrollIndicateView.m in Sources */,
 				2485CE7925ED1608009D40D4 /* UIView+FanExtension.m in Sources */,
 				2485CDE125ED0AD1009D40D4 /* SceneDelegate.m in Sources */,
 			);
@@ -572,14 +640,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6GG862H69N;
+				DEVELOPMENT_TEAM = 48XD7V73T2;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ClassicsDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = ClassicsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fan.ClassicsDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fan.ClassicsDemo1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -592,14 +661,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6GG862H69N;
+				DEVELOPMENT_TEAM = 48XD7V73T2;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ClassicsDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = ClassicsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fan.ClassicsDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fan.ClassicsDemo1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
