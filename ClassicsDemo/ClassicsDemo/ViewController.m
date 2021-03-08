@@ -83,6 +83,10 @@
                           @"title":@"ScrollUnitView(滚动单元View功能)",
                           @"class":@"FanScrollUnitViewController"
                       },
+                      @{
+                          @"title":@"MoreTaskDownload(多任务下载)",
+                          @"class":@"FanMoreTaskDownloadController"
+                      },
                       nil];
     }
     return _dictArray;

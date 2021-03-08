@@ -12,7 +12,11 @@ NS_ASSUME_NONNULL_BEGIN
 @interface FanBaseViewController : UIViewController
 
 
+- (void)initData;
+
 - (void)addChildView;
+
+- (void)loadData;
 
 @end
 

@@ -18,7 +18,15 @@
     self.view.backgroundColor = [UIColor whiteColor];
 }
 
+- (void)initData{
+    
+}
+
 - (void)addChildView{
+    
+}
+
+- (void)loadData{
     
 }
 @end
