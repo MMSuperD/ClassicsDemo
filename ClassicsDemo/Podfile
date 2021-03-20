@@ -7,6 +7,8 @@ target 'ClassicsDemo' do
   pod 'Masonry'
 
   pod 'YYModel'
+  
+  pod 'FMDB'
   # Pods for ClassicsDemo
 
 end

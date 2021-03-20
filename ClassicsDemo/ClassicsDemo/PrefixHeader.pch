@@ -11,6 +11,8 @@
 
 #import <Masonry/Masonry.h>
 #import <YYModel/YYModel.h>
+#import <FMDB/FMDB.h>
+
 #import "FanBaseFunTool.h"
 
 

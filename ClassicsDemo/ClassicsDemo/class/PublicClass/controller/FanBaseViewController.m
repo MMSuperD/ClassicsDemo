@@ -18,6 +18,11 @@
     self.view.backgroundColor = [UIColor whiteColor];
 }
 
+- (void)initNotification{
+    
+    
+}
+
 - (void)initData{
     
 }

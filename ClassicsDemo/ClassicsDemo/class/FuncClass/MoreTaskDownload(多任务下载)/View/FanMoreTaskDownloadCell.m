@@ -6,7 +6,7 @@
 //
 
 #import "FanMoreTaskDownloadCell.h"
-
+#import "FanDownloadManager.h"
 @interface FanMoreTaskDownloadCell()
 
 @property (nonatomic,strong)UILabel *titleLabel;
@@ -64,12 +64,18 @@
     _model = model;
     self.titleLabel.text = model.fileName;
     
+    self.networkSpeedLabel.text = [NSString stringWithFormat:@"%zd Kb/s",model.speed];
+    
+    self.progressLabel.text = [NSString stringWithFormat:@"%.2fM/%.2fM",model.tmpFileSize * 1.0/1000000 ,model.totalFileSize * 1.0/1000000];
+    
+    
 }
 
 #pragma 下载按钮点击事件
 
 - (void)actionDownloadBtn:(UIButton *)sender {
     
+    [[FanDownloadManager shareManager] startDownloadTask:self.model];
 }
 
 @end

@@ -10,6 +10,7 @@
 
 #import "FanMoreTaskConst.h"
 #import "FanDownloadManager.h"
+#import "FanDataBaseManager.h"
 
 
 #endif /* MoreTaskHeader_h */

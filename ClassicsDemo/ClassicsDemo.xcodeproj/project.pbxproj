@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		244CBFAA2601F07000CF1373 /* FanMoreTaskTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 244CBFA92601F07000CF1373 /* FanMoreTaskTools.m */; };
 		245308BE25EF2C560070E9AA /* FanScrollUnitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245308BD25EF2C560070E9AA /* FanScrollUnitViewController.m */; };
 		245308C225EF2EA60070E9AA /* FanScrollUnitCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 245308C125EF2EA60070E9AA /* FanScrollUnitCell.m */; };
 		245308C625EF2EDC0070E9AA /* FanScrollUnitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 245308C525EF2EDC0070E9AA /* FanScrollUnitView.m */; };
@@ -39,10 +40,13 @@
 		24AAA2C425EDE5A7001BB124 /* FanEditTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AAA2C325EDE5A7001BB124 /* FanEditTableViewCell.m */; };
 		24C7F56425F5FEFF00F0BBA8 /* FanDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C7F56325F5FEFF00F0BBA8 /* FanDownloadManager.m */; };
 		24C7F56925F601C800F0BBA8 /* FanMoreTaskConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C7F56825F601C800F0BBA8 /* FanMoreTaskConst.m */; };
+		24C7F57425F60F9800F0BBA8 /* FanDataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C7F57325F60F9800F0BBA8 /* FanDataBaseManager.m */; };
 		FEF73A61DD929F6098EA3E26 /* Pods_ClassicsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62435D95371F511EF436ED3E /* Pods_ClassicsDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		244CBFA82601F07000CF1373 /* FanMoreTaskTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FanMoreTaskTools.h; sourceTree = "<group>"; };
+		244CBFA92601F07000CF1373 /* FanMoreTaskTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanMoreTaskTools.m; sourceTree = "<group>"; };
 		245308BC25EF2C560070E9AA /* FanScrollUnitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FanScrollUnitViewController.h; sourceTree = "<group>"; };
 		245308BD25EF2C560070E9AA /* FanScrollUnitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanScrollUnitViewController.m; sourceTree = "<group>"; };
 		245308C025EF2EA60070E9AA /* FanScrollUnitCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FanScrollUnitCell.h; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 		24C7F56725F601C800F0BBA8 /* FanMoreTaskConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FanMoreTaskConst.h; sourceTree = "<group>"; };
 		24C7F56825F601C800F0BBA8 /* FanMoreTaskConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanMoreTaskConst.m; sourceTree = "<group>"; };
 		24C7F56B25F6044B00F0BBA8 /* MoreTaskHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoreTaskHeader.h; sourceTree = "<group>"; };
+		24C7F57225F60F9800F0BBA8 /* FanDataBaseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FanDataBaseManager.h; sourceTree = "<group>"; };
+		24C7F57325F60F9800F0BBA8 /* FanDataBaseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanDataBaseManager.m; sourceTree = "<group>"; };
 		2CBFB622643C4228808D9D90 /* Pods-ClassicsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassicsDemo.release.xcconfig"; path = "Target Support Files/Pods-ClassicsDemo/Pods-ClassicsDemo.release.xcconfig"; sourceTree = "<group>"; };
 		62435D95371F511EF436ED3E /* Pods_ClassicsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClassicsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B4E3197918E86E914E7A48 /* Pods-ClassicsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassicsDemo.debug.xcconfig"; path = "Target Support Files/Pods-ClassicsDemo/Pods-ClassicsDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +130,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		244CBFA72601F04300CF1373 /* MoreTaskTools */ = {
+			isa = PBXGroup;
+			children = (
+				244CBFA82601F07000CF1373 /* FanMoreTaskTools.h */,
+				244CBFA92601F07000CF1373 /* FanMoreTaskTools.m */,
+			);
+			path = MoreTaskTools;
+			sourceTree = "<group>";
+		};
 		245308B825EF2BC40070E9AA /* ScrollUnitView */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +183,7 @@
 		247BAE7025F5CC15006AED13 /* MoreTaskDownload(多任务下载) */ = {
 			isa = PBXGroup;
 			children = (
+				244CBFA72601F04300CF1373 /* MoreTaskTools */,
 				24C7F56125F5FEC800F0BBA8 /* MoreTaskManager */,
 				247BAE7325F5CC5B006AED13 /* View */,
 				247BAE7225F5CC4C006AED13 /* Model */,
@@ -413,6 +429,8 @@
 			children = (
 				24C7F56225F5FEFF00F0BBA8 /* FanDownloadManager.h */,
 				24C7F56325F5FEFF00F0BBA8 /* FanDownloadManager.m */,
+				24C7F57225F60F9800F0BBA8 /* FanDataBaseManager.h */,
+				24C7F57325F60F9800F0BBA8 /* FanDataBaseManager.m */,
 				24C7F56725F601C800F0BBA8 /* FanMoreTaskConst.h */,
 				24C7F56825F601C800F0BBA8 /* FanMoreTaskConst.m */,
 				24C7F56B25F6044B00F0BBA8 /* MoreTaskHeader.h */,
@@ -561,6 +579,8 @@
 				245308C625EF2EDC0070E9AA /* FanScrollUnitView.m in Sources */,
 				2485CE0D25ED0D0B009D40D4 /* FanEditCellViewController.m in Sources */,
 				2485CE0325ED0C95009D40D4 /* FanBaseModel.m in Sources */,
+				244CBFAA2601F07000CF1373 /* FanMoreTaskTools.m in Sources */,
+				24C7F57425F60F9800F0BBA8 /* FanDataBaseManager.m in Sources */,
 				2485CDE425ED0AD1009D40D4 /* ViewController.m in Sources */,
 				2485CDDE25ED0AD1009D40D4 /* AppDelegate.m in Sources */,
 				24AAA2BF25EDE44A001BB124 /* FanSelectDelecteView.m in Sources */,

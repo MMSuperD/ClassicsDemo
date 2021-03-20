@@ -9,13 +9,13 @@
 
 NS_ASSUME_NONNULL_BEGIN
 @class FanDownLoadModel;
-typedef NS_ENUM(NSInteger, FanDownloadState) {
-    FanDownloadState_Default = 0,  // 默认
-    FanDownloadState_Downloading,  // 正在下载
-    FanDownloadState_Waiting,      // 等待
-    FanDownloadState_Paused,       // 暂停
-    FanDownloadState_Finish,       // 完成
-    FanDownloadState_Error,        // 错误
+typedef NS_ENUM(NSInteger, FANDownloadState) {
+    FANDownloadState_Default = 0,  // 默认
+    FANDownloadState_Downloading,  // 正在下载
+    FANDownloadState_Waiting,      // 等待
+    FANDownloadState_Paused,       // 暂停
+    FANDownloadState_Finish,       // 完成
+    FANDownloadState_Error,        // 错误
 };
 
 @interface FanDownloadManager : NSObject

@@ -19,10 +19,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    
+    [self initNotification];
     [self initData];
     [self addChildView];
     [self loadData];
+}
+
+- (void)initNotification{
+    
+    //监听进度通知
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(actionFanDownloadProgressNotification:) name:FanDownloadProgressNotification object:nil];
 }
 
 
@@ -45,6 +52,33 @@
     
     [self.tableView reloadData];
     
+}
+
+#pragma mark 监听通知的变化
+
+- (void)actionFanDownloadProgressNotification:(NSNotification *)sender {
+    
+    
+    @synchronized (self) {
+        FanDownLoadModel *downloadModel = sender.object;
+        [self.downloadModelArray enumerateObjectsUsingBlock:^(FanDownLoadModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+            
+            if ([obj.url isEqualToString:downloadModel.url]) {
+                
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    FanMoreTaskDownloadCell *cell = [self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:idx inSection:0]];
+                    if (cell) {
+                        //这里需要刷新cell
+                        cell.model = downloadModel;
+                    }
+                });
+                // 这里得到了index
+            
+                *stop = YES;
+                return;
+            }
+        } ];
+    }
 }
 
 
