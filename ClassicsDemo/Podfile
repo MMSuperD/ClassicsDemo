@@ -1,5 +1,11 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '10.0'
+
+   source 'https://github.com/MMSuperD/FANSpec.git'
+ # source 'https://github.com/CocoaPods/Specs.git'
+ # source 'https://cdn.cocoapods.org/'
+   source 'https://gitee.com/mirrors/CocoaPods-Specs.git'
+
+ platform :ios, '11.0'
 
 target 'ClassicsDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -9,6 +15,8 @@ target 'ClassicsDemo' do
   pod 'YYModel'
   
   pod 'FMDB'
+  
+  pod "FANOCBaseConfig"
   # Pods for ClassicsDemo
 
 end
