@@ -1,20 +1,30 @@
 PODS:
+  - FANOCBaseConfig (0.1.0):
+    - Masonry (~> 1.1.0)
+    - MJRefresh (~> 3.7.5)
   - Masonry (1.1.0)
+  - MJRefresh (3.7.5)
   - YYModel (1.0.4)
 
 DEPENDENCIES:
-  - Masonry
+  - FANOCBaseConfig
   - YYModel
 
 SPEC REPOS:
-  trunk:
+  "https://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@github.com/MMSuperD/FANSpec.git":
+    - FANOCBaseConfig
+  https://gitee.com/mirrors/CocoaPods-Specs.git:
     - Masonry
+    - MJRefresh
+  trunk:
     - YYModel
 
 SPEC CHECKSUMS:
+  FANOCBaseConfig: 2f1ea30cd6d6baf9537a3d99ca11b3dff083d88e
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: e1d532ba61aaee26d2af1aeb22374eea8fa9ac05
+PODFILE CHECKSUM: fd2d271bd40f74ac04051708f8b2c21175494674
 
 COCOAPODS: 1.10.1
