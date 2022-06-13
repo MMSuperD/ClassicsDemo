@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#include "Fan_TestViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -60,11 +61,14 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    NSString *classString = self.dictArray[indexPath.row][@"class"];
+//    NSString *classString = self.dictArray[indexPath.row][@"class"];
+//
+//    UIViewController * vc = [[NSClassFromString(classString) alloc] init];
+//    vc.title = self.dictArray[indexPath.row][@"title"];
+//    [self.navigationController pushViewController:vc animated:YES];
     
-    UIViewController * vc = [[NSClassFromString(classString) alloc] init];
-    vc.title = self.dictArray[indexPath.row][@"title"];
-    [self.navigationController pushViewController:vc animated:YES];
+    Fan_TestViewController *vc = [Fan_TestViewController new];
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 - (NSMutableArray<NSDictionary *> *)dictArray{
@@ -82,6 +86,10 @@
                       @{
                           @"title":@"ScrollUnitView(滚动单元View功能)",
                           @"class":@"FanScrollUnitViewController"
+                      },
+                      @{
+                          @"title":@"蓝牙模块",
+                          @"class":@"FAN_CoreBlueModuleController"
                       },
                       nil];
     }

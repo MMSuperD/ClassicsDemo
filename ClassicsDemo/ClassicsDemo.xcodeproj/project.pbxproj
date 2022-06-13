@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		244CA25028481BED00873B26 /* Fan_TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244CA24F28481BED00873B26 /* Fan_TestViewController.m */; };
 		245308BE25EF2C560070E9AA /* FanScrollUnitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245308BD25EF2C560070E9AA /* FanScrollUnitViewController.m */; };
 		245308C225EF2EA60070E9AA /* FanScrollUnitCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 245308C125EF2EA60070E9AA /* FanScrollUnitCell.m */; };
 		245308C625EF2EDC0070E9AA /* FanScrollUnitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 245308C525EF2EDC0070E9AA /* FanScrollUnitView.m */; };
@@ -33,10 +34,14 @@
 		24AAA22625ED1A3C001BB124 /* FanEditCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AAA22525ED1A3C001BB124 /* FanEditCellModel.m */; };
 		24AAA2BF25EDE44A001BB124 /* FanSelectDelecteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AAA2BE25EDE44A001BB124 /* FanSelectDelecteView.m */; };
 		24AAA2C425EDE5A7001BB124 /* FanEditTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AAA2C325EDE5A7001BB124 /* FanEditTableViewCell.m */; };
+		24C5431A282B4E2600A56574 /* FAN_CoreBlueModuleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C54319282B4E2600A56574 /* FAN_CoreBlueModuleController.m */; };
+		24C5431E282B5A7A00A56574 /* FAN_CoreBlueTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C5431D282B5A7A00A56574 /* FAN_CoreBlueTools.m */; };
 		FEF73A61DD929F6098EA3E26 /* Pods_ClassicsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62435D95371F511EF436ED3E /* Pods_ClassicsDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		244CA24E28481BED00873B26 /* Fan_TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fan_TestViewController.h; sourceTree = "<group>"; };
+		244CA24F28481BED00873B26 /* Fan_TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fan_TestViewController.m; sourceTree = "<group>"; };
 		245308BC25EF2C560070E9AA /* FanScrollUnitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FanScrollUnitViewController.h; sourceTree = "<group>"; };
 		245308BD25EF2C560070E9AA /* FanScrollUnitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanScrollUnitViewController.m; sourceTree = "<group>"; };
 		245308C025EF2EA60070E9AA /* FanScrollUnitCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FanScrollUnitCell.h; sourceTree = "<group>"; };
@@ -89,6 +94,10 @@
 		24AAA2BE25EDE44A001BB124 /* FanSelectDelecteView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanSelectDelecteView.m; sourceTree = "<group>"; };
 		24AAA2C225EDE5A7001BB124 /* FanEditTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FanEditTableViewCell.h; sourceTree = "<group>"; };
 		24AAA2C325EDE5A7001BB124 /* FanEditTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanEditTableViewCell.m; sourceTree = "<group>"; };
+		24C54318282B4E2600A56574 /* FAN_CoreBlueModuleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_CoreBlueModuleController.h; sourceTree = "<group>"; };
+		24C54319282B4E2600A56574 /* FAN_CoreBlueModuleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_CoreBlueModuleController.m; sourceTree = "<group>"; };
+		24C5431C282B5A7A00A56574 /* FAN_CoreBlueTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_CoreBlueTools.h; sourceTree = "<group>"; };
+		24C5431D282B5A7A00A56574 /* FAN_CoreBlueTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_CoreBlueTools.m; sourceTree = "<group>"; };
 		2CBFB622643C4228808D9D90 /* Pods-ClassicsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassicsDemo.release.xcconfig"; path = "Target Support Files/Pods-ClassicsDemo/Pods-ClassicsDemo.release.xcconfig"; sourceTree = "<group>"; };
 		62435D95371F511EF436ED3E /* Pods_ClassicsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClassicsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B4E3197918E86E914E7A48 /* Pods-ClassicsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassicsDemo.debug.xcconfig"; path = "Target Support Files/Pods-ClassicsDemo/Pods-ClassicsDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +115,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		244CA24D28481BA500873B26 /* TestModule */ = {
+			isa = PBXGroup;
+			children = (
+				244CA24E28481BED00873B26 /* Fan_TestViewController.h */,
+				244CA24F28481BED00873B26 /* Fan_TestViewController.m */,
+			);
+			path = TestModule;
+			sourceTree = "<group>";
+		};
 		245308B825EF2BC40070E9AA /* ScrollUnitView */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,6 +226,8 @@
 		2485CDF825ED0C19009D40D4 /* FuncClass */ = {
 			isa = PBXGroup;
 			children = (
+				244CA24D28481BA500873B26 /* TestModule */,
+				24C54316282B4D8600A56574 /* CoreBlueModule(蓝牙模块) */,
 				245308B825EF2BC40070E9AA /* ScrollUnitView */,
 				2485CE0925ED0CB9009D40D4 /* EditCell(编辑cell功能) */,
 			);
@@ -342,6 +362,33 @@
 			path = view;
 			sourceTree = "<group>";
 		};
+		24C54316282B4D8600A56574 /* CoreBlueModule(蓝牙模块) */ = {
+			isa = PBXGroup;
+			children = (
+				24C5431B282B5A3100A56574 /* Tools */,
+				24C54317282B4DE000A56574 /* Controller */,
+			);
+			path = "CoreBlueModule(蓝牙模块)";
+			sourceTree = "<group>";
+		};
+		24C54317282B4DE000A56574 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24C54318282B4E2600A56574 /* FAN_CoreBlueModuleController.h */,
+				24C54319282B4E2600A56574 /* FAN_CoreBlueModuleController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		24C5431B282B5A3100A56574 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				24C5431C282B5A7A00A56574 /* FAN_CoreBlueTools.h */,
+				24C5431D282B5A7A00A56574 /* FAN_CoreBlueTools.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		63C552F4FBCA97DEFDA43F40 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -473,6 +520,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24C5431A282B4E2600A56574 /* FAN_CoreBlueModuleController.m in Sources */,
 				24AAA2C425EDE5A7001BB124 /* FanEditTableViewCell.m in Sources */,
 				2485CE8325ED16B0009D40D4 /* FanBaseTableViewController.m in Sources */,
 				2485CE7B25ED1608009D40D4 /* UILabel+FanExtension.m in Sources */,
@@ -488,11 +536,13 @@
 				2485CE0725ED0CA8009D40D4 /* FanBaseView.m in Sources */,
 				2485CE7D25ED1608009D40D4 /* UIColor+FanExtension.m in Sources */,
 				245308BE25EF2C560070E9AA /* FanScrollUnitViewController.m in Sources */,
+				24C5431E282B5A7A00A56574 /* FAN_CoreBlueTools.m in Sources */,
 				2485CE7A25ED1608009D40D4 /* UIView+extension.m in Sources */,
 				24AAA22625ED1A3C001BB124 /* FanEditCellModel.m in Sources */,
 				2485CDEF25ED0AD4009D40D4 /* main.m in Sources */,
 				245308CE25EF5C740070E9AA /* FanScrollCollectionCell.m in Sources */,
 				2485CDFE25ED0C7E009D40D4 /* FanBaseViewController.m in Sources */,
+				244CA25028481BED00873B26 /* Fan_TestViewController.m in Sources */,
 				245308D525EF73BE0070E9AA /* FanScrollIndicateView.m in Sources */,
 				2485CE7925ED1608009D40D4 /* UIView+FanExtension.m in Sources */,
 				2485CDE125ED0AD1009D40D4 /* SceneDelegate.m in Sources */,
