@@ -14,13 +14,53 @@
 
 @property (nonatomic,strong)Fan_CircleProgressView *memoryProgressView;
 
+@property (nonatomic,strong)UILabel *fpsLabel;
+@property (nonatomic,strong)CADisplayLink *displayLink;
+
 @end
 
 @implementation Fan_PowerTestViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    self.fpsLabel = [UILabel fan_labelWithText:@"12" font:18 textColorStr:@"#000000"];
+    [self.view addSubview:self.fpsLabel];
+    
+    [self.fpsLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.leading.mas_equalTo(self.view.mas_centerX).mas_equalTo(20);
+        make.top.mas_equalTo(self.nvView.mas_bottom).mas_offset(120);
+    }];
+    
+    
+    
+    _displayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(displayLinkTick:)];
+//    [_displayLink setPaused:YES];
+    [_displayLink addToRunLoop:[NSRunLoop currentRunLoop] forMode:NSRunLoopCommonModes];
+    
+    __weak Fan_PowerTestViewController *weakSelf = self;
+    self.returnBlock = ^(id text) {
+        
+        weakSelf.fpsLabel.text = text;
+    };
 
+
+    UITextView *textView = [UITextView new];
+    [self.view addSubview:textView];
+    NSMutableString *app = [NSMutableString string];
+    for (int i = 0; i < 40; i++) {
+        [app appendString:@"456789032"];
+    }
+    textView.text = app.copy;
+    
+    [textView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.leading.mas_equalTo(self.view.mas_centerX).mas_offset(20);
+        make.trailing.mas_equalTo(self.view);
+        make.top.mas_equalTo(self.fpsLabel.mas_bottom).mas_offset(20);
+        make.height.mas_equalTo(200);
+    }];
+    
     
     Fan_CircleProgressView *cpuProgressView = [[Fan_CircleProgressView alloc] initWithFrame:CGRectZero];
     [self.view addSubview:cpuProgressView];
@@ -220,6 +260,39 @@
     return 0;
 }
 
+
+//这个方法的执行频率跟当前屏幕的刷新频率是一样的，屏幕每渲染刷新一次，就执行一次，那么1秒的时长执行刷新的次数就是当前的FPS值
+- (void)displayLinkTick:(CADisplayLink *)link{
+   
+   //     duration 是只读的， 表示屏幕刷新的间隔 = 1/fps
+   //     timestamp 是只读的， 表示上次屏幕渲染的时间点
+   //    frameInterval 是表示定时器被触发的间隔， 默认值是1， 就是表示跟屏幕的刷新频率一致。
+   //    NSLog(@"timestamp= %f  duration= %f frameInterval= %f",link.timestamp, link.duration, frameInterval);
+    static int _count = 0;
+    static CGFloat _beginTime = 0;
+   //初始化屏幕渲染的时间
+   if (_beginTime == 0) {
+       _beginTime = link.timestamp;
+       return;
+   }
+   //刷新次数累加
+   _count++;
+   //刚刚屏幕渲染的时间与最开始幕渲染的时间差
+   NSTimeInterval interval = link.timestamp - _beginTime;
+   if (interval < 1) {
+       //不足1秒，继续统计刷新次数
+       return;
+   }
+   //刷新频率
+   float fps = _count / interval;
+   
+    if (self.returnBlock) {
+        self.returnBlock(@(fps).description);
+    }
+   //1秒之后，初始化时间和次数，重新开始监测
+   _beginTime = link.timestamp;
+   _count = 0;
+}
 
 
 
