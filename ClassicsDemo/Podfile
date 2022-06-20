@@ -12,6 +12,7 @@ target 'ClassicsDemo' do
   pod 'FANOCBaseConfig'
 
   pod 'YYModel'
+  pod 'AgoraRtcEngine_iOS'
   # Pods for ClassicsDemo
 
 end

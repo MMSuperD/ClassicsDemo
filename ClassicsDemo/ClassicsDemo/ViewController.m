@@ -61,14 +61,14 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-//    NSString *classString = self.dictArray[indexPath.row][@"class"];
-//
-//    UIViewController * vc = [[NSClassFromString(classString) alloc] init];
-//    vc.title = self.dictArray[indexPath.row][@"title"];
-//    [self.navigationController pushViewController:vc animated:YES];
+    NSString *classString = self.dictArray[indexPath.row][@"class"];
+
+    UIViewController * vc = [[NSClassFromString(classString) alloc] init];
+    vc.title = self.dictArray[indexPath.row][@"title"];
+    [self.navigationController pushViewController:vc animated:YES];
     
-    Fan_TestViewController *vc = [Fan_TestViewController new];
-    [self presentViewController:vc animated:YES completion:nil];
+//    Fan_TestViewController *vc = [Fan_TestViewController new];
+//    [self presentViewController:vc animated:YES completion:nil];
 }
 
 - (NSMutableArray<NSDictionary *> *)dictArray{
@@ -91,6 +91,15 @@
                           @"title":@"蓝牙模块",
                           @"class":@"FAN_CoreBlueModuleController"
                       },
+                      @{
+                          @"title":@"直播模块",
+                          @"class":@"FAN_LiveStreamingViewController"
+                      },
+                      @{
+                          @"title":@"性能检查",
+                          @"class":@"Fan_PowerTestViewController"
+                      },
+
                       nil];
     }
     return _dictArray;
@@ -98,3 +107,4 @@
 
 
 @end
+
