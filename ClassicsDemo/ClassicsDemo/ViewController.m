@@ -99,6 +99,14 @@
                           @"title":@"性能检查",
                           @"class":@"Fan_PowerTestViewController"
                       },
+                      @{
+                          @"title":@"响应者链条测试",
+                          @"class":@"Fan_ResponseChainController"
+                      },
+                      @{
+                          @"title":@"常用算法",
+                          @"class":@"Fan_CommonlyAlgorithmController"
+                      },
 
                       nil];
     }

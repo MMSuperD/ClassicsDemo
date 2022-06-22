@@ -39,6 +39,8 @@
 		3155ABEA285AE848002909F6 /* FAN_LiveStreamingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3155ABE9285AE848002909F6 /* FAN_LiveStreamingViewController.m */; };
 		3155ABEF285FDD91002909F6 /* Fan_PowerTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3155ABEE285FDD91002909F6 /* Fan_PowerTestViewController.m */; };
 		3155ABF3285FDEFC002909F6 /* Fan_CircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3155ABF2285FDEFC002909F6 /* Fan_CircleProgressView.m */; };
+		3155ABF828618BDD002909F6 /* Fan_ResponseChainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3155ABF728618BDD002909F6 /* Fan_ResponseChainController.m */; };
+		3155ABFD286277A6002909F6 /* Fan_CommonlyAlgorithmController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3155ABFC286277A6002909F6 /* Fan_CommonlyAlgorithmController.m */; };
 		FEF73A61DD929F6098EA3E26 /* Pods_ClassicsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62435D95371F511EF436ED3E /* Pods_ClassicsDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -108,6 +110,10 @@
 		3155ABEE285FDD91002909F6 /* Fan_PowerTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fan_PowerTestViewController.m; sourceTree = "<group>"; };
 		3155ABF1285FDEFC002909F6 /* Fan_CircleProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fan_CircleProgressView.h; sourceTree = "<group>"; };
 		3155ABF2285FDEFC002909F6 /* Fan_CircleProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fan_CircleProgressView.m; sourceTree = "<group>"; };
+		3155ABF628618BDC002909F6 /* Fan_ResponseChainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fan_ResponseChainController.h; sourceTree = "<group>"; };
+		3155ABF728618BDD002909F6 /* Fan_ResponseChainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fan_ResponseChainController.m; sourceTree = "<group>"; };
+		3155ABFB286277A6002909F6 /* Fan_CommonlyAlgorithmController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fan_CommonlyAlgorithmController.h; sourceTree = "<group>"; };
+		3155ABFC286277A6002909F6 /* Fan_CommonlyAlgorithmController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fan_CommonlyAlgorithmController.m; sourceTree = "<group>"; };
 		62435D95371F511EF436ED3E /* Pods_ClassicsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClassicsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B4E3197918E86E914E7A48 /* Pods-ClassicsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassicsDemo.debug.xcconfig"; path = "Target Support Files/Pods-ClassicsDemo/Pods-ClassicsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -235,6 +241,8 @@
 		2485CDF825ED0C19009D40D4 /* FuncClass */ = {
 			isa = PBXGroup;
 			children = (
+				3155ABF9286276FC002909F6 /* CommonlyAlgorithm */,
+				3155ABF428618B41002909F6 /* ResponseChain */,
 				3155ABEB285FDD1C002909F6 /* PowerTest */,
 				3155ABE6285AE7E2002909F6 /* LiveStreaming */,
 				244CA24D28481BA500873B26 /* TestModule */,
@@ -444,6 +452,40 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		3155ABF428618B41002909F6 /* ResponseChain */ = {
+			isa = PBXGroup;
+			children = (
+				3155ABF528618BAA002909F6 /* Controller */,
+			);
+			path = ResponseChain;
+			sourceTree = "<group>";
+		};
+		3155ABF528618BAA002909F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3155ABF628618BDC002909F6 /* Fan_ResponseChainController.h */,
+				3155ABF728618BDD002909F6 /* Fan_ResponseChainController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3155ABF9286276FC002909F6 /* CommonlyAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				3155ABFA28627759002909F6 /* Controller */,
+			);
+			path = CommonlyAlgorithm;
+			sourceTree = "<group>";
+		};
+		3155ABFA28627759002909F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3155ABFB286277A6002909F6 /* Fan_CommonlyAlgorithmController.h */,
+				3155ABFC286277A6002909F6 /* Fan_CommonlyAlgorithmController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		63C552F4FBCA97DEFDA43F40 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -595,7 +637,9 @@
 				245308BE25EF2C560070E9AA /* FanScrollUnitViewController.m in Sources */,
 				24C5431E282B5A7A00A56574 /* FAN_CoreBlueTools.m in Sources */,
 				2485CE7A25ED1608009D40D4 /* UIView+extension.m in Sources */,
+				3155ABF828618BDD002909F6 /* Fan_ResponseChainController.m in Sources */,
 				24AAA22625ED1A3C001BB124 /* FanEditCellModel.m in Sources */,
+				3155ABFD286277A6002909F6 /* Fan_CommonlyAlgorithmController.m in Sources */,
 				2485CDEF25ED0AD4009D40D4 /* main.m in Sources */,
 				245308CE25EF5C740070E9AA /* FanScrollCollectionCell.m in Sources */,
 				3155ABF3285FDEFC002909F6 /* Fan_CircleProgressView.m in Sources */,
