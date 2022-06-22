@@ -107,11 +107,16 @@
                           @"title":@"常用算法",
                           @"class":@"Fan_CommonlyAlgorithmController"
                       },
+                      @{
+                          @"title":@"webView于JS交互",
+                          @"class":@"FAN_webViewController"
+                      },
 
                       nil];
     }
     return _dictArray;
 }
+
 
 
 @end

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div style="margin-top: 100px">
+            <h1>Objective-C和JavaScript交互的那些事</h1>
+            <input style="width: 300px;height: 100px;font-size: large;" style="width: 100px;height: 50px;" type="button" value="CallCamera" onclick="Interaction.callCamera()">
+        </div>
+        <div>
+            <h1> JS 调用OC 测试 </h1>
+            <input style="width: 300px;height: 100px;font-size: large;" type="button" value="JS 调用OC 测试" onclick="locationClick()">
+        </div>
+        
+        <script>
+<!--            var callShare = function() {-->
+<!--                var shareInfo = JSON.stringify({"title": "标题", "desc": "内容", "shareUrl": "http://www.jianshu.com/p/f896d73c670a",-->
+<!--                    "shareIco":"http://upload-images.jianshu.io/upload_images/1192353-fd26211d54aea8a9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"});-->
+<!--                Interaction.share(shareInfo);-->
+<!--            }-->
+<!---->
+<!--            var picCallback = function(photos) {-->
+<!--                alert(photos);-->
+<!--            }-->
+<!--            -->
+<!--            var shareCallback = function(shareInfo,hhString){-->
+<!--                alert('very nice');-->
+<!--                alert(shareInfo)-->
+<!--                //这里是字符串转 字典-->
+<!--                var shareInfoDict = JSON.parse(shareInfo)-->
+<!--                alert(shareInfoDict)-->
+<!--                //这里是取字典中的某个值-->
+<!--                alert(shareInfoDict.shareUrl)-->
+<!--                -->
+<!--                alert(hhString)-->
+<!--            }-->
+            
+            function locationClick() {
+                window.webkit.messageHandlers.Location.postMessage("shareInfo");
+            }
+            
+            function alertAction(message) {
+                alert(message);
+            }
+        </script>
+    </body>
+</html>

@@ -41,6 +41,10 @@
 		3155ABF3285FDEFC002909F6 /* Fan_CircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3155ABF2285FDEFC002909F6 /* Fan_CircleProgressView.m */; };
 		3155ABF828618BDD002909F6 /* Fan_ResponseChainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3155ABF728618BDD002909F6 /* Fan_ResponseChainController.m */; };
 		3155ABFD286277A6002909F6 /* Fan_CommonlyAlgorithmController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3155ABFC286277A6002909F6 /* Fan_CommonlyAlgorithmController.m */; };
+		3155AC012862B719002909F6 /* FAN_webViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3155AC002862B719002909F6 /* FAN_webViewController.m */; };
+		3155AC042862B7C6002909F6 /* jsDemo.html in Resources */ = {isa = PBXBuildFile; fileRef = 3155AC032862B7C6002909F6 /* jsDemo.html */; };
+		3155AC13286300B6002909F6 /* FanWebViewHandleDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3155AC12286300B6002909F6 /* FanWebViewHandleDelegateObject.m */; };
+		3155AC16286306BD002909F6 /* NSObject+addFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = 3155AC15286306BD002909F6 /* NSObject+addFunc.m */; };
 		FEF73A61DD929F6098EA3E26 /* Pods_ClassicsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62435D95371F511EF436ED3E /* Pods_ClassicsDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -114,6 +118,13 @@
 		3155ABF728618BDD002909F6 /* Fan_ResponseChainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fan_ResponseChainController.m; sourceTree = "<group>"; };
 		3155ABFB286277A6002909F6 /* Fan_CommonlyAlgorithmController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fan_CommonlyAlgorithmController.h; sourceTree = "<group>"; };
 		3155ABFC286277A6002909F6 /* Fan_CommonlyAlgorithmController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fan_CommonlyAlgorithmController.m; sourceTree = "<group>"; };
+		3155ABFF2862B719002909F6 /* FAN_webViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_webViewController.h; sourceTree = "<group>"; };
+		3155AC002862B719002909F6 /* FAN_webViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_webViewController.m; sourceTree = "<group>"; };
+		3155AC032862B7C6002909F6 /* jsDemo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jsDemo.html; sourceTree = "<group>"; };
+		3155AC11286300B6002909F6 /* FanWebViewHandleDelegateObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FanWebViewHandleDelegateObject.h; sourceTree = "<group>"; };
+		3155AC12286300B6002909F6 /* FanWebViewHandleDelegateObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanWebViewHandleDelegateObject.m; sourceTree = "<group>"; };
+		3155AC14286306BD002909F6 /* NSObject+addFunc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+addFunc.h"; sourceTree = "<group>"; };
+		3155AC15286306BD002909F6 /* NSObject+addFunc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+addFunc.m"; sourceTree = "<group>"; };
 		62435D95371F511EF436ED3E /* Pods_ClassicsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClassicsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B4E3197918E86E914E7A48 /* Pods-ClassicsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassicsDemo.debug.xcconfig"; path = "Target Support Files/Pods-ClassicsDemo/Pods-ClassicsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -241,6 +252,7 @@
 		2485CDF825ED0C19009D40D4 /* FuncClass */ = {
 			isa = PBXGroup;
 			children = (
+				3155ABFE2862B6D2002909F6 /* WebViewJS */,
 				3155ABF9286276FC002909F6 /* CommonlyAlgorithm */,
 				3155ABF428618B41002909F6 /* ResponseChain */,
 				3155ABEB285FDD1C002909F6 /* PowerTest */,
@@ -486,6 +498,28 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		3155ABFE2862B6D2002909F6 /* WebViewJS */ = {
+			isa = PBXGroup;
+			children = (
+				3155AC022862B720002909F6 /* Controller */,
+			);
+			path = WebViewJS;
+			sourceTree = "<group>";
+		};
+		3155AC022862B720002909F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3155AC032862B7C6002909F6 /* jsDemo.html */,
+				3155ABFF2862B719002909F6 /* FAN_webViewController.h */,
+				3155AC002862B719002909F6 /* FAN_webViewController.m */,
+				3155AC11286300B6002909F6 /* FanWebViewHandleDelegateObject.h */,
+				3155AC12286300B6002909F6 /* FanWebViewHandleDelegateObject.m */,
+				3155AC14286306BD002909F6 /* NSObject+addFunc.h */,
+				3155AC15286306BD002909F6 /* NSObject+addFunc.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		63C552F4FBCA97DEFDA43F40 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -562,6 +596,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3155AC042862B7C6002909F6 /* jsDemo.html in Resources */,
 				2485CDEC25ED0AD4009D40D4 /* LaunchScreen.storyboard in Resources */,
 				2485CDE925ED0AD4009D40D4 /* Assets.xcassets in Resources */,
 				2485CDE725ED0AD1009D40D4 /* Main.storyboard in Resources */,
@@ -617,9 +652,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3155AC13286300B6002909F6 /* FanWebViewHandleDelegateObject.m in Sources */,
 				24C5431A282B4E2600A56574 /* FAN_CoreBlueModuleController.m in Sources */,
 				24AAA2C425EDE5A7001BB124 /* FanEditTableViewCell.m in Sources */,
 				2485CE8325ED16B0009D40D4 /* FanBaseTableViewController.m in Sources */,
+				3155AC012862B719002909F6 /* FAN_webViewController.m in Sources */,
 				2485CE7B25ED1608009D40D4 /* UILabel+FanExtension.m in Sources */,
 				245308CA25EF5B790070E9AA /* FanBaseCollectionCell.m in Sources */,
 				245308C225EF2EA60070E9AA /* FanScrollUnitCell.m in Sources */,
@@ -644,6 +681,7 @@
 				245308CE25EF5C740070E9AA /* FanScrollCollectionCell.m in Sources */,
 				3155ABF3285FDEFC002909F6 /* Fan_CircleProgressView.m in Sources */,
 				2485CDFE25ED0C7E009D40D4 /* FanBaseViewController.m in Sources */,
+				3155AC16286306BD002909F6 /* NSObject+addFunc.m in Sources */,
 				244CA25028481BED00873B26 /* Fan_TestViewController.m in Sources */,
 				245308D525EF73BE0070E9AA /* FanScrollIndicateView.m in Sources */,
 				2485CE7925ED1608009D40D4 /* UIView+FanExtension.m in Sources */,
