@@ -23,6 +23,11 @@
 
 - (void)addChildView{
     
+    [self.tableView mas_remakeConstraints:^(MASConstraintMaker *make) {
+        make.leading.bottom.trailing.mas_equalTo(self.view);
+        make.top.mas_equalTo(self.nvView.mas_bottom);
+    }];
+    
     [self.tableView registerClass:[FanScrollUnitCell class] forCellReuseIdentifier:@"FanScrollUnitCell"];
 //    self.tableView.estimatedRowHeight = 50;
     self.tableView.rowHeight = 100;

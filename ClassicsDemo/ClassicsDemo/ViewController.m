@@ -16,6 +16,13 @@
 
 @implementation ViewController
 
+
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [self.navigationController setNavigationBarHidden:NO animated:NO];
+
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 
@@ -92,8 +99,8 @@
                           @"class":@"FAN_CoreBlueModuleController"
                       },
                       @{
-                          @"title":@"直播模块",
-                          @"class":@"FAN_LiveStreamingViewController"
+                          @"title":@"直播模块(声网SDK)",
+                          @"class":@"FAN_TestLiveStreamingViewController"
                       },
                       @{
                           @"title":@"性能检查",
@@ -111,11 +118,29 @@
                           @"title":@"webView于JS交互",
                           @"class":@"FAN_webViewController"
                       },
+                      @{
+                          @"title":@"直播列表(RTMP + ijKPlayer + LFLiveKit)",
+                          @"class":@"FAN_LiveListViewController"
+                      },
+                      
+                      @{
+                          @"title":@"即时通讯(WebSocket + SocketRocket)",
+                          @"class":@"FAN_IMViewController"
+                      },
+                      
+                      @{
+                          @"title":@"沙盒的使用(sandbox)",
+                          @"class":@"FAN_SandBoxViewController"
+                      },
+
 
                       nil];
     }
     return _dictArray;
 }
+
+
+
 
 
 

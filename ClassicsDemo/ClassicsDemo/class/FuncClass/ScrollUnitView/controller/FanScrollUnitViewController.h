@@ -5,11 +5,11 @@
 //  Created by xzmac on 2021/3/3.
 //
 
-#import "FanBaseTableViewController.h"
+#import <FANOCBaseConfig/FANOCBaseConfig.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface FanScrollUnitViewController : FanBaseTableViewController
+@interface FanScrollUnitViewController : FAN_BaseTableViewController
 
 @end
 

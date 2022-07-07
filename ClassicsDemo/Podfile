@@ -13,6 +13,13 @@ target 'ClassicsDemo' do
 
   pod 'YYModel'
   pod 'AgoraRtcEngine_iOS'
+  pod 'LFLiveKit'
+  
+  # 这个是用来做即时通讯 的第三方库
+  pod 'SocketRocket'
+  
+  pod 'AFNetworking'
+  
   # Pods for ClassicsDemo
 
 end

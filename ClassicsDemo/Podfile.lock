@@ -1,4 +1,19 @@
 PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
   - AgoraRtcEngine_iOS (3.7.0.3):
     - AgoraRtcEngine_iOS/AINS (= 3.7.0.3)
     - AgoraRtcEngine_iOS/AV1Dec (= 3.7.0.3)
@@ -25,32 +40,43 @@ PODS:
   - FANOCBaseConfig (0.1.0):
     - Masonry (~> 1.1.0)
     - MJRefresh (~> 3.7.5)
+  - LFLiveKit (2.6)
   - Masonry (1.1.0)
   - MJRefresh (3.7.5)
+  - SocketRocket (0.6.0)
   - YYModel (1.0.4)
 
 DEPENDENCIES:
+  - AFNetworking
   - AgoraRtcEngine_iOS
   - FANOCBaseConfig
+  - LFLiveKit
+  - SocketRocket
   - YYModel
 
 SPEC REPOS:
   "https://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@github.com/MMSuperD/FANSpec.git":
     - FANOCBaseConfig
   https://gitee.com/mirrors/CocoaPods-Specs.git:
+    - AFNetworking
     - AgoraRtcEngine_iOS
+    - LFLiveKit
     - Masonry
     - MJRefresh
+    - SocketRocket
   trunk:
     - YYModel
 
 SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   AgoraRtcEngine_iOS: 549bb3853d5afb18fabca4197786f39f31141da8
   FANOCBaseConfig: 2f1ea30cd6d6baf9537a3d99ca11b3dff083d88e
+  LFLiveKit: 2219563721f8aa0f188effc3395a06e2d53b23f2
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 384659d0534965f032e9fe67607d65056d2d6372
+PODFILE CHECKSUM: e0d90602db90172d19415bc56f0c61913df3a39d
 
 COCOAPODS: 1.11.3

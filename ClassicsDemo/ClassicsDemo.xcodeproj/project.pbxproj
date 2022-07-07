@@ -45,6 +45,32 @@
 		3155AC042862B7C6002909F6 /* jsDemo.html in Resources */ = {isa = PBXBuildFile; fileRef = 3155AC032862B7C6002909F6 /* jsDemo.html */; };
 		3155AC13286300B6002909F6 /* FanWebViewHandleDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3155AC12286300B6002909F6 /* FanWebViewHandleDelegateObject.m */; };
 		3155AC16286306BD002909F6 /* NSObject+addFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = 3155AC15286306BD002909F6 /* NSObject+addFunc.m */; };
+		317485B62872730300292062 /* FAN_LiveListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 317485B52872730300292062 /* FAN_LiveListViewController.m */; };
+		317485B92872732D00292062 /* FAN_LiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 317485B82872732D00292062 /* FAN_LiveViewController.m */; };
+		317485C528728A5700292062 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 317485C428728A5700292062 /* IJKMediaFramework.framework */; };
+		317485C728728A7D00292062 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 317485C628728A7D00292062 /* AudioToolbox.framework */; };
+		317485C928728A8600292062 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 317485C828728A8600292062 /* AVFoundation.framework */; };
+		317485CB28728A9100292062 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 317485CA28728A9100292062 /* CoreGraphics.framework */; };
+		317485CD28728A9C00292062 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 317485CC28728A9C00292062 /* CoreMedia.framework */; };
+		317485CF28728AAD00292062 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 317485CE28728AAD00292062 /* libbz2.tbd */; };
+		317485D128728AB500292062 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 317485D028728AB500292062 /* libz.tbd */; };
+		317485D328728ABE00292062 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 317485D228728ABE00292062 /* MediaPlayer.framework */; };
+		317485D528728AC900292062 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 317485D428728AC900292062 /* MobileCoreServices.framework */; };
+		317485D728728AD300292062 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 317485D628728AD300292062 /* OpenGLES.framework */; };
+		317485D928728ADE00292062 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 317485D828728ADE00292062 /* QuartzCore.framework */; };
+		317485DB28728AE800292062 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 317485DA28728AE800292062 /* VideoToolbox.framework */; };
+		317485DF2872B93000292062 /* Fan_LiveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 317485DE2872B93000292062 /* Fan_LiveView.m */; };
+		317485E32872C44200292062 /* Fan_PlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 317485E22872C44200292062 /* Fan_PlayerView.m */; };
+		317485E62872C6B300292062 /* FAN_PlayerLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 317485E52872C6B300292062 /* FAN_PlayerLiveViewController.m */; };
+		317485E92872DC0F00292062 /* FAN_TestLiveStreamingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 317485E82872DC0F00292062 /* FAN_TestLiveStreamingViewController.m */; };
+		317485EC2872DEC000292062 /* FAN_StartLiveStreamingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 317485EB2872DEC000292062 /* FAN_StartLiveStreamingViewController.m */; };
+		317485EF2872DEDA00292062 /* FAN_LookLiveStreamingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 317485EE2872DEDA00292062 /* FAN_LookLiveStreamingViewController.m */; };
+		3174861C28753EA100292062 /* FAN_IMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3174861B28753EA100292062 /* FAN_IMViewController.m */; };
+		31748620287540D200292062 /* FAN_WebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 3174861F287540D200292062 /* FAN_WebSocket.m */; };
+		3174862B2875729300292062 /* FAN_LeftChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3174862A2875729300292062 /* FAN_LeftChatCell.m */; };
+		3174862E287572A400292062 /* FAN_RightChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3174862D287572A400292062 /* FAN_RightChatCell.m */; };
+		317486332875D43E00292062 /* FAN_SandBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 317486322875D43E00292062 /* FAN_SandBoxViewController.m */; };
+		317486352875D9AC00292062 /* testPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 317486342875D9AC00292062 /* testPlist.plist */; };
 		FEF73A61DD929F6098EA3E26 /* Pods_ClassicsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62435D95371F511EF436ED3E /* Pods_ClassicsDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -125,6 +151,45 @@
 		3155AC12286300B6002909F6 /* FanWebViewHandleDelegateObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanWebViewHandleDelegateObject.m; sourceTree = "<group>"; };
 		3155AC14286306BD002909F6 /* NSObject+addFunc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+addFunc.h"; sourceTree = "<group>"; };
 		3155AC15286306BD002909F6 /* NSObject+addFunc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+addFunc.m"; sourceTree = "<group>"; };
+		317485B42872730300292062 /* FAN_LiveListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_LiveListViewController.h; sourceTree = "<group>"; };
+		317485B52872730300292062 /* FAN_LiveListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_LiveListViewController.m; sourceTree = "<group>"; };
+		317485B72872732D00292062 /* FAN_LiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_LiveViewController.h; sourceTree = "<group>"; };
+		317485B82872732D00292062 /* FAN_LiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_LiveViewController.m; sourceTree = "<group>"; };
+		317485C428728A5700292062 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		317485C628728A7D00292062 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		317485C828728A8600292062 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		317485CA28728A9100292062 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		317485CC28728A9C00292062 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		317485CE28728AAD00292062 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		317485D028728AB500292062 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		317485D228728ABE00292062 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		317485D428728AC900292062 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		317485D628728AD300292062 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		317485D828728ADE00292062 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		317485DA28728AE800292062 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		317485DD2872B93000292062 /* Fan_LiveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fan_LiveView.h; sourceTree = "<group>"; };
+		317485DE2872B93000292062 /* Fan_LiveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fan_LiveView.m; sourceTree = "<group>"; };
+		317485E12872C44200292062 /* Fan_PlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fan_PlayerView.h; sourceTree = "<group>"; };
+		317485E22872C44200292062 /* Fan_PlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fan_PlayerView.m; sourceTree = "<group>"; };
+		317485E42872C6B300292062 /* FAN_PlayerLiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_PlayerLiveViewController.h; sourceTree = "<group>"; };
+		317485E52872C6B300292062 /* FAN_PlayerLiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_PlayerLiveViewController.m; sourceTree = "<group>"; };
+		317485E72872DC0F00292062 /* FAN_TestLiveStreamingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_TestLiveStreamingViewController.h; sourceTree = "<group>"; };
+		317485E82872DC0F00292062 /* FAN_TestLiveStreamingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_TestLiveStreamingViewController.m; sourceTree = "<group>"; };
+		317485EA2872DEC000292062 /* FAN_StartLiveStreamingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_StartLiveStreamingViewController.h; sourceTree = "<group>"; };
+		317485EB2872DEC000292062 /* FAN_StartLiveStreamingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_StartLiveStreamingViewController.m; sourceTree = "<group>"; };
+		317485ED2872DEDA00292062 /* FAN_LookLiveStreamingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_LookLiveStreamingViewController.h; sourceTree = "<group>"; };
+		317485EE2872DEDA00292062 /* FAN_LookLiveStreamingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_LookLiveStreamingViewController.m; sourceTree = "<group>"; };
+		3174861A28753EA100292062 /* FAN_IMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_IMViewController.h; sourceTree = "<group>"; };
+		3174861B28753EA100292062 /* FAN_IMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_IMViewController.m; sourceTree = "<group>"; };
+		3174861E287540D200292062 /* FAN_WebSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_WebSocket.h; sourceTree = "<group>"; };
+		3174861F287540D200292062 /* FAN_WebSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_WebSocket.m; sourceTree = "<group>"; };
+		317486292875729300292062 /* FAN_LeftChatCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_LeftChatCell.h; sourceTree = "<group>"; };
+		3174862A2875729300292062 /* FAN_LeftChatCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_LeftChatCell.m; sourceTree = "<group>"; };
+		3174862C287572A400292062 /* FAN_RightChatCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_RightChatCell.h; sourceTree = "<group>"; };
+		3174862D287572A400292062 /* FAN_RightChatCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_RightChatCell.m; sourceTree = "<group>"; };
+		317486312875D43E00292062 /* FAN_SandBoxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_SandBoxViewController.h; sourceTree = "<group>"; };
+		317486322875D43E00292062 /* FAN_SandBoxViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_SandBoxViewController.m; sourceTree = "<group>"; };
+		317486342875D9AC00292062 /* testPlist.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = testPlist.plist; sourceTree = "<group>"; };
 		62435D95371F511EF436ED3E /* Pods_ClassicsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClassicsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B4E3197918E86E914E7A48 /* Pods-ClassicsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassicsDemo.debug.xcconfig"; path = "Target Support Files/Pods-ClassicsDemo/Pods-ClassicsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -134,6 +199,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				317485DB28728AE800292062 /* VideoToolbox.framework in Frameworks */,
+				317485D928728ADE00292062 /* QuartzCore.framework in Frameworks */,
+				317485D728728AD300292062 /* OpenGLES.framework in Frameworks */,
+				317485D528728AC900292062 /* MobileCoreServices.framework in Frameworks */,
+				317485D328728ABE00292062 /* MediaPlayer.framework in Frameworks */,
+				317485D128728AB500292062 /* libz.tbd in Frameworks */,
+				317485CF28728AAD00292062 /* libbz2.tbd in Frameworks */,
+				317485CD28728A9C00292062 /* CoreMedia.framework in Frameworks */,
+				317485CB28728A9100292062 /* CoreGraphics.framework in Frameworks */,
+				317485C928728A8600292062 /* AVFoundation.framework in Frameworks */,
+				317485C728728A7D00292062 /* AudioToolbox.framework in Frameworks */,
+				317485C528728A5700292062 /* IJKMediaFramework.framework in Frameworks */,
 				FEF73A61DD929F6098EA3E26 /* Pods_ClassicsDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +297,7 @@
 				2485CDE225ED0AD1009D40D4 /* ViewController.h */,
 				2485CDE325ED0AD1009D40D4 /* ViewController.m */,
 				2485CE1425ED0EA9009D40D4 /* PrefixHeader.pch */,
+				317486342875D9AC00292062 /* testPlist.plist */,
 				2485CDE525ED0AD1009D40D4 /* Main.storyboard */,
 				2485CDE825ED0AD4009D40D4 /* Assets.xcassets */,
 				2485CDEA25ED0AD4009D40D4 /* LaunchScreen.storyboard */,
@@ -252,6 +330,9 @@
 		2485CDF825ED0C19009D40D4 /* FuncClass */ = {
 			isa = PBXGroup;
 			children = (
+				3174862F2875D40400292062 /* SandBox */,
+				3174861828753E5900292062 /* IM */,
+				317485B22872728C00292062 /* Live */,
 				3155ABFE2862B6D2002909F6 /* WebViewJS */,
 				3155ABF9286276FC002909F6 /* CommonlyAlgorithm */,
 				3155ABF428618B41002909F6 /* ResponseChain */,
@@ -433,6 +514,12 @@
 			children = (
 				3155ABE8285AE848002909F6 /* FAN_LiveStreamingViewController.h */,
 				3155ABE9285AE848002909F6 /* FAN_LiveStreamingViewController.m */,
+				317485E72872DC0F00292062 /* FAN_TestLiveStreamingViewController.h */,
+				317485E82872DC0F00292062 /* FAN_TestLiveStreamingViewController.m */,
+				317485EA2872DEC000292062 /* FAN_StartLiveStreamingViewController.h */,
+				317485EB2872DEC000292062 /* FAN_StartLiveStreamingViewController.m */,
+				317485ED2872DEDA00292062 /* FAN_LookLiveStreamingViewController.h */,
+				317485EE2872DEDA00292062 /* FAN_LookLiveStreamingViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -520,9 +607,118 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		317485B22872728C00292062 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				317485DC2872B90A00292062 /* View */,
+				317485BC28727BC700292062 /* Frameworks */,
+				317485B3287272AA00292062 /* Controller */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		317485B3287272AA00292062 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				317485B42872730300292062 /* FAN_LiveListViewController.h */,
+				317485B52872730300292062 /* FAN_LiveListViewController.m */,
+				317485B72872732D00292062 /* FAN_LiveViewController.h */,
+				317485B82872732D00292062 /* FAN_LiveViewController.m */,
+				317485E42872C6B300292062 /* FAN_PlayerLiveViewController.h */,
+				317485E52872C6B300292062 /* FAN_PlayerLiveViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		317485BC28727BC700292062 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				317485C428728A5700292062 /* IJKMediaFramework.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		317485DC2872B90A00292062 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				317485DD2872B93000292062 /* Fan_LiveView.h */,
+				317485DE2872B93000292062 /* Fan_LiveView.m */,
+				317485E12872C44200292062 /* Fan_PlayerView.h */,
+				317485E22872C44200292062 /* Fan_PlayerView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3174861828753E5900292062 /* IM */ = {
+			isa = PBXGroup;
+			children = (
+				317486282875721100292062 /* View */,
+				3174861D2875409200292062 /* Tools */,
+				3174861928753E6A00292062 /* Controller */,
+			);
+			path = IM;
+			sourceTree = "<group>";
+		};
+		3174861928753E6A00292062 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3174861A28753EA100292062 /* FAN_IMViewController.h */,
+				3174861B28753EA100292062 /* FAN_IMViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3174861D2875409200292062 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				3174861E287540D200292062 /* FAN_WebSocket.h */,
+				3174861F287540D200292062 /* FAN_WebSocket.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		317486282875721100292062 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				317486292875729300292062 /* FAN_LeftChatCell.h */,
+				3174862A2875729300292062 /* FAN_LeftChatCell.m */,
+				3174862C287572A400292062 /* FAN_RightChatCell.h */,
+				3174862D287572A400292062 /* FAN_RightChatCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3174862F2875D40400292062 /* SandBox */ = {
+			isa = PBXGroup;
+			children = (
+				317486302875D41A00292062 /* Controller */,
+			);
+			path = SandBox;
+			sourceTree = "<group>";
+		};
+		317486302875D41A00292062 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				317486312875D43E00292062 /* FAN_SandBoxViewController.h */,
+				317486322875D43E00292062 /* FAN_SandBoxViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		63C552F4FBCA97DEFDA43F40 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				317485DA28728AE800292062 /* VideoToolbox.framework */,
+				317485D828728ADE00292062 /* QuartzCore.framework */,
+				317485D628728AD300292062 /* OpenGLES.framework */,
+				317485D428728AC900292062 /* MobileCoreServices.framework */,
+				317485D228728ABE00292062 /* MediaPlayer.framework */,
+				317485D028728AB500292062 /* libz.tbd */,
+				317485CE28728AAD00292062 /* libbz2.tbd */,
+				317485CC28728A9C00292062 /* CoreMedia.framework */,
+				317485CA28728A9100292062 /* CoreGraphics.framework */,
+				317485C828728A8600292062 /* AVFoundation.framework */,
+				317485C628728A7D00292062 /* AudioToolbox.framework */,
 				62435D95371F511EF436ED3E /* Pods_ClassicsDemo.framework */,
 			);
 			name = Frameworks;
@@ -597,6 +793,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3155AC042862B7C6002909F6 /* jsDemo.html in Resources */,
+				317486352875D9AC00292062 /* testPlist.plist in Resources */,
 				2485CDEC25ED0AD4009D40D4 /* LaunchScreen.storyboard in Resources */,
 				2485CDE925ED0AD4009D40D4 /* Assets.xcassets in Resources */,
 				2485CDE725ED0AD1009D40D4 /* Main.storyboard in Resources */,
@@ -653,8 +850,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3155AC13286300B6002909F6 /* FanWebViewHandleDelegateObject.m in Sources */,
+				317485E32872C44200292062 /* Fan_PlayerView.m in Sources */,
+				317485EF2872DEDA00292062 /* FAN_LookLiveStreamingViewController.m in Sources */,
 				24C5431A282B4E2600A56574 /* FAN_CoreBlueModuleController.m in Sources */,
 				24AAA2C425EDE5A7001BB124 /* FanEditTableViewCell.m in Sources */,
+				31748620287540D200292062 /* FAN_WebSocket.m in Sources */,
+				3174861C28753EA100292062 /* FAN_IMViewController.m in Sources */,
 				2485CE8325ED16B0009D40D4 /* FanBaseTableViewController.m in Sources */,
 				3155AC012862B719002909F6 /* FAN_webViewController.m in Sources */,
 				2485CE7B25ED1608009D40D4 /* UILabel+FanExtension.m in Sources */,
@@ -675,15 +876,24 @@
 				24C5431E282B5A7A00A56574 /* FAN_CoreBlueTools.m in Sources */,
 				2485CE7A25ED1608009D40D4 /* UIView+extension.m in Sources */,
 				3155ABF828618BDD002909F6 /* Fan_ResponseChainController.m in Sources */,
+				3174862B2875729300292062 /* FAN_LeftChatCell.m in Sources */,
+				3174862E287572A400292062 /* FAN_RightChatCell.m in Sources */,
 				24AAA22625ED1A3C001BB124 /* FanEditCellModel.m in Sources */,
+				317486332875D43E00292062 /* FAN_SandBoxViewController.m in Sources */,
 				3155ABFD286277A6002909F6 /* Fan_CommonlyAlgorithmController.m in Sources */,
 				2485CDEF25ED0AD4009D40D4 /* main.m in Sources */,
+				317485B92872732D00292062 /* FAN_LiveViewController.m in Sources */,
 				245308CE25EF5C740070E9AA /* FanScrollCollectionCell.m in Sources */,
 				3155ABF3285FDEFC002909F6 /* Fan_CircleProgressView.m in Sources */,
 				2485CDFE25ED0C7E009D40D4 /* FanBaseViewController.m in Sources */,
 				3155AC16286306BD002909F6 /* NSObject+addFunc.m in Sources */,
 				244CA25028481BED00873B26 /* Fan_TestViewController.m in Sources */,
+				317485DF2872B93000292062 /* Fan_LiveView.m in Sources */,
+				317485E62872C6B300292062 /* FAN_PlayerLiveViewController.m in Sources */,
 				245308D525EF73BE0070E9AA /* FanScrollIndicateView.m in Sources */,
+				317485EC2872DEC000292062 /* FAN_StartLiveStreamingViewController.m in Sources */,
+				317485B62872730300292062 /* FAN_LiveListViewController.m in Sources */,
+				317485E92872DC0F00292062 /* FAN_TestLiveStreamingViewController.m in Sources */,
 				2485CE7925ED1608009D40D4 /* UIView+FanExtension.m in Sources */,
 				2485CDE125ED0AD1009D40D4 /* SceneDelegate.m in Sources */,
 			);
@@ -831,6 +1041,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 48XD7V73T2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ClassicsDemo/class/FuncClass/Live/Frameworks",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ClassicsDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = ClassicsDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -852,6 +1066,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 48XD7V73T2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ClassicsDemo/class/FuncClass/Live/Frameworks",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ClassicsDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = ClassicsDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;

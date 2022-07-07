@@ -63,6 +63,11 @@
 	<string>相机访问</string>
 	<key>NSLocalNetworkUsageDescription</key>
 	<string>网络权限</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

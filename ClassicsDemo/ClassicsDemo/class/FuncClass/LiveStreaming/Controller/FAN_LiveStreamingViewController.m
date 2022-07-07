@@ -95,7 +95,9 @@
 
 - (void)joinChannel {
     // 频道内每个用户的 uid 必须是唯一的
-    [self.agoraKit joinChannelByToken:@"0b6f523eaa954da7a70be7ae958259c4" channelId:@"study" info:nil uid:0 joinSuccess:^(NSString * _Nonnull channel, NSUInteger uid, NSInteger elapsed) {
+    [self.agoraKit joinChannelByToken:@"006c8b5dae237684da7a39919e180bceac4IACNvBCPzNKh+sPeqatzK9cq3CxmVryiYJ4aW11rziBEDUmXf+YAAAAAEADldWoAJvTDYgEAAQAl9MNi" channelId:@"study" info:nil uid:0 joinSuccess:^(NSString * _Nonnull channel, NSUInteger uid, NSInteger elapsed) {
+        
+        NSLog(@"");
     }];
     
 }
