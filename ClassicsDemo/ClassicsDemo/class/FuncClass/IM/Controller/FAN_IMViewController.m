@@ -60,6 +60,8 @@
     [self.tableView registerClass:[FAN_RightChatCell class] forCellReuseIdentifier:@"FAN_RightChatCell"];
     self.tableView.rowHeight = UITableViewAutomaticDimension;
     self.tableView.estimatedRowHeight = 140;
+    
+//    self.isTurnOnNavRightPanGesture = NO;
 }
 
 - (void)addChildSubview{

@@ -19,14 +19,22 @@
 
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    [self.navigationController setNavigationBarHidden:NO animated:NO];
+    [self.navigationController.navigationBar setHidden:NO];
+    
 
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    [self initData];
     [self addChildView];
+}
+
+- (void)initData{
+    
+    self.title = @"常用功能列表";
+    
 }
 
 - (void)addChildView {
@@ -41,11 +49,13 @@
     
     [tableView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.mas_equalTo(self.view);
+        
     }];
     
     self.view.backgroundColor = [UIColor lightGrayColor];
 
 }
+
 
 #pragma mark UITableViewDelegate,UITableViewDatasource
 
@@ -132,12 +142,17 @@
                           @"title":@"沙盒的使用(sandbox)",
                           @"class":@"FAN_SandBoxViewController"
                       },
+                      @{
+                          @"title":@"3d模型展示(SceneKit)",
+                          @"class":@"FAN_3DModelShowViewController"
+                      },
 
 
                       nil];
     }
     return _dictArray;
 }
+
 
 
 

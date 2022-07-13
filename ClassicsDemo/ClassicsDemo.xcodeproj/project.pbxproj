@@ -71,6 +71,7 @@
 		3174862E287572A400292062 /* FAN_RightChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3174862D287572A400292062 /* FAN_RightChatCell.m */; };
 		317486332875D43E00292062 /* FAN_SandBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 317486322875D43E00292062 /* FAN_SandBoxViewController.m */; };
 		317486352875D9AC00292062 /* testPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 317486342875D9AC00292062 /* testPlist.plist */; };
+		31BE7EFD287C7A23009F6C84 /* FAN_3DModelShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BE7EFC287C7A23009F6C84 /* FAN_3DModelShowViewController.m */; };
 		FEF73A61DD929F6098EA3E26 /* Pods_ClassicsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62435D95371F511EF436ED3E /* Pods_ClassicsDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -190,6 +191,8 @@
 		317486312875D43E00292062 /* FAN_SandBoxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_SandBoxViewController.h; sourceTree = "<group>"; };
 		317486322875D43E00292062 /* FAN_SandBoxViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_SandBoxViewController.m; sourceTree = "<group>"; };
 		317486342875D9AC00292062 /* testPlist.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = testPlist.plist; sourceTree = "<group>"; };
+		31BE7EFB287C7A23009F6C84 /* FAN_3DModelShowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_3DModelShowViewController.h; sourceTree = "<group>"; };
+		31BE7EFC287C7A23009F6C84 /* FAN_3DModelShowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_3DModelShowViewController.m; sourceTree = "<group>"; };
 		62435D95371F511EF436ED3E /* Pods_ClassicsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClassicsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B4E3197918E86E914E7A48 /* Pods-ClassicsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassicsDemo.debug.xcconfig"; path = "Target Support Files/Pods-ClassicsDemo/Pods-ClassicsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -330,6 +333,7 @@
 		2485CDF825ED0C19009D40D4 /* FuncClass */ = {
 			isa = PBXGroup;
 			children = (
+				31BE7EF9287C79EA009F6C84 /* 3DModelShow */,
 				3174862F2875D40400292062 /* SandBox */,
 				3174861828753E5900292062 /* IM */,
 				317485B22872728C00292062 /* Live */,
@@ -705,6 +709,23 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		31BE7EF9287C79EA009F6C84 /* 3DModelShow */ = {
+			isa = PBXGroup;
+			children = (
+				31BE7EFA287C79FF009F6C84 /* Controller */,
+			);
+			path = 3DModelShow;
+			sourceTree = "<group>";
+		};
+		31BE7EFA287C79FF009F6C84 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				31BE7EFB287C7A23009F6C84 /* FAN_3DModelShowViewController.h */,
+				31BE7EFC287C7A23009F6C84 /* FAN_3DModelShowViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		63C552F4FBCA97DEFDA43F40 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -871,6 +892,7 @@
 				24AAA2BF25EDE44A001BB124 /* FanSelectDelecteView.m in Sources */,
 				2485CE0725ED0CA8009D40D4 /* FanBaseView.m in Sources */,
 				2485CE7D25ED1608009D40D4 /* UIColor+FanExtension.m in Sources */,
+				31BE7EFD287C7A23009F6C84 /* FAN_3DModelShowViewController.m in Sources */,
 				3155ABEF285FDD91002909F6 /* Fan_PowerTestViewController.m in Sources */,
 				245308BE25EF2C560070E9AA /* FanScrollUnitViewController.m in Sources */,
 				24C5431E282B5A7A00A56574 /* FAN_CoreBlueTools.m in Sources */,
