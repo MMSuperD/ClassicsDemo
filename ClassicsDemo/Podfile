@@ -10,8 +10,8 @@ source 'https://github.com/CocoaPods/Specs.git'
 target 'ClassicsDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-#  pod 'FANOCBaseConfig'
-  pod 'FANOCBaseConfig',:path => '/Users/fan/Desktop/MyStudy/MyGithub/FANOCBaseConfig'
+  pod 'FANOCBaseConfig'
+#  pod 'FANOCBaseConfig',:path => '/Users/fan/Desktop/MyStudy/MyGithub/FANOCBaseConfig'
 
 
   pod 'YYModel'

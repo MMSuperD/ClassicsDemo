@@ -49,12 +49,14 @@ PODS:
 DEPENDENCIES:
   - AFNetworking
   - AgoraRtcEngine_iOS
-  - FANOCBaseConfig (from `/Users/fan/Desktop/MyStudy/MyGithub/FANOCBaseConfig`)
+  - FANOCBaseConfig
   - LFLiveKit
   - SocketRocket
   - YYModel
 
 SPEC REPOS:
+  "git@github.com:MMSuperD/FANSpec.git":
+    - FANOCBaseConfig
   https://gitee.com/mirrors/CocoaPods-Specs.git:
     - AFNetworking
     - AgoraRtcEngine_iOS
@@ -65,20 +67,16 @@ SPEC REPOS:
   trunk:
     - YYModel
 
-EXTERNAL SOURCES:
-  FANOCBaseConfig:
-    :path: "/Users/fan/Desktop/MyStudy/MyGithub/FANOCBaseConfig"
-
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   AgoraRtcEngine_iOS: 549bb3853d5afb18fabca4197786f39f31141da8
-  FANOCBaseConfig: 9d01f543e86ae4261cea45a24adec39b618ff90e
+  FANOCBaseConfig: 2f00a66d0dfdab2efc74b7bb2fcf04fe78e8de20
   LFLiveKit: 2219563721f8aa0f188effc3395a06e2d53b23f2
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
   SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 6fc032e816e746a8960c63667bacc91cf81842d4
+PODFILE CHECKSUM: f21f246790b5eae7913b3fbbf49fe7157a81692d
 
 COCOAPODS: 1.11.3
