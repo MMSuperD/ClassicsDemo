@@ -37,7 +37,7 @@ PODS:
   - AgoraRtcEngine_iOS/SuperResolution (3.7.0.3)
   - AgoraRtcEngine_iOS/VideoPreprocess (3.7.0.3)
   - AgoraRtcEngine_iOS/VirtualBackground (3.7.0.3)
-  - FANOCBaseConfig (0.1.6):
+  - FANOCBaseConfig (0.1.8):
     - Masonry (~> 1.1.0)
     - MJRefresh (~> 3.7.5)
   - LFLiveKit (2.6)
@@ -64,13 +64,12 @@ SPEC REPOS:
     - Masonry
     - MJRefresh
     - SocketRocket
-  trunk:
     - YYModel
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   AgoraRtcEngine_iOS: 549bb3853d5afb18fabca4197786f39f31141da8
-  FANOCBaseConfig: 2f00a66d0dfdab2efc74b7bb2fcf04fe78e8de20
+  FANOCBaseConfig: 3101b48ede43fc980d0b905979fb2e583c791b71
   LFLiveKit: 2219563721f8aa0f188effc3395a06e2d53b23f2
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961

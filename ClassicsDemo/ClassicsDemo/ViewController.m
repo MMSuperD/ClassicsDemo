@@ -7,10 +7,14 @@
 
 #import "ViewController.h"
 #include "Fan_TestViewController.h"
+#import <FANOCBaseConfig/FANOCBaseConfig.h>
+
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic,strong)NSMutableArray<NSDictionary *> *dictArray;
+
+@property (nonatomic,strong)FAN_NavControllerObjectDelegate *transitionDelegateObject;
 
 @end
 
@@ -19,7 +23,12 @@
 
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    [self.navigationController.navigationBar setHidden:NO];
+//    [self.navigationController.navigationBar setHidden:NO];
+    
+    // 这里是开启转场动画的
+//    if (self.navigationController) {
+//        self.navigationController.delegate = self.transitionDelegateObject;
+//    }
     
 
 }
@@ -39,6 +48,8 @@
 
 - (void)addChildView {
     
+    self.leftNvBarBtn.alpha = 0;
+    
     UITableView *tableView = [UITableView new];
     [self.view addSubview:tableView];
     [tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"UITableViewCell"];
@@ -48,8 +59,8 @@
     tableView.dataSource = self;
     
     [tableView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.mas_equalTo(self.view);
-        
+        make.leading.trailing.bottom.mas_equalTo(self.view);
+        make.top.mas_equalTo(self.nvView.mas_bottom);
     }];
     
     self.view.backgroundColor = [UIColor lightGrayColor];
@@ -146,6 +157,10 @@
                           @"title":@"3d模型展示(SceneKit)",
                           @"class":@"FAN_3DModelShowViewController"
                       },
+                      @{
+                          @"title":@"核心动画demo",
+                          @"class":@"FAN_CoreAnimationViewController"
+                      },
 
 
                       nil];
@@ -155,6 +170,12 @@
 
 
 
+- (FAN_NavControllerObjectDelegate *)transitionDelegateObject{
+    if (!_transitionDelegateObject) {
+        _transitionDelegateObject = [FAN_NavControllerObjectDelegate new];
+    }
+    return _transitionDelegateObject;
+}
 
 
 

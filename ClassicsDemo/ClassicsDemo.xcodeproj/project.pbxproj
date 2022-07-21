@@ -36,6 +36,8 @@
 		24AAA2C425EDE5A7001BB124 /* FanEditTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AAA2C325EDE5A7001BB124 /* FanEditTableViewCell.m */; };
 		24C5431A282B4E2600A56574 /* FAN_CoreBlueModuleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C54319282B4E2600A56574 /* FAN_CoreBlueModuleController.m */; };
 		24C5431E282B5A7A00A56574 /* FAN_CoreBlueTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C5431D282B5A7A00A56574 /* FAN_CoreBlueTools.m */; };
+		310417DB2887F25600F3C728 /* FAN_CircleTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 310417DA2887F25500F3C728 /* FAN_CircleTransition.m */; };
+		310417DE2887F2DA00F3C728 /* FAN_TransitionView2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 310417DD2887F2DA00F3C728 /* FAN_TransitionView2Controller.m */; };
 		3155ABEA285AE848002909F6 /* FAN_LiveStreamingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3155ABE9285AE848002909F6 /* FAN_LiveStreamingViewController.m */; };
 		3155ABEF285FDD91002909F6 /* Fan_PowerTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3155ABEE285FDD91002909F6 /* Fan_PowerTestViewController.m */; };
 		3155ABF3285FDEFC002909F6 /* Fan_CircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3155ABF2285FDEFC002909F6 /* Fan_CircleProgressView.m */; };
@@ -72,6 +74,17 @@
 		317486332875D43E00292062 /* FAN_SandBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 317486322875D43E00292062 /* FAN_SandBoxViewController.m */; };
 		317486352875D9AC00292062 /* testPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 317486342875D9AC00292062 /* testPlist.plist */; };
 		31BE7EFD287C7A23009F6C84 /* FAN_3DModelShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BE7EFC287C7A23009F6C84 /* FAN_3DModelShowViewController.m */; };
+		31BE7F392886F2B5009F6C84 /* FAN_CoreAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BE7F382886F2B5009F6C84 /* FAN_CoreAnimationViewController.m */; };
+		31BE7F3D2886F4CC009F6C84 /* FAN_BaseAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BE7F3C2886F4CC009F6C84 /* FAN_BaseAnimationView.m */; };
+		31BE7F402886F768009F6C84 /* FAN_BaseAnimationHeartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BE7F3F2886F768009F6C84 /* FAN_BaseAnimationHeartCell.m */; };
+		31BE7F482887011D009F6C84 /* FAN_BaseTransitionAnimationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BE7F472887011D009F6C84 /* FAN_BaseTransitionAnimationCell.m */; };
+		31BE7F4B288706BD009F6C84 /* FAN_BaseGroupAnimationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BE7F4A288706BD009F6C84 /* FAN_BaseGroupAnimationCell.m */; };
+		31BE7F4E28870EEA009F6C84 /* FAN_ScreenShotAnimationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BE7F4D28870EEA009F6C84 /* FAN_ScreenShotAnimationCell.m */; };
+		31BE7F512887B28D009F6C84 /* FAN_CurveAnimationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BE7F502887B28D009F6C84 /* FAN_CurveAnimationCell.m */; };
+		31BE7F542887D11E009F6C84 /* FAN_TextLayerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BE7F532887D11E009F6C84 /* FAN_TextLayerCell.m */; };
+		31BE7F572887DF35009F6C84 /* FAN_StereoscopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BE7F562887DF35009F6C84 /* FAN_StereoscopicCell.m */; };
+		31BE7F5A2887E80C009F6C84 /* FAN_TransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BE7F592887E80C009F6C84 /* FAN_TransitionViewController.m */; };
+		31BE7F5D2887E836009F6C84 /* FAN_TransitionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BE7F5C2887E836009F6C84 /* FAN_TransitionCell.m */; };
 		FEF73A61DD929F6098EA3E26 /* Pods_ClassicsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62435D95371F511EF436ED3E /* Pods_ClassicsDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -135,6 +148,10 @@
 		24C5431C282B5A7A00A56574 /* FAN_CoreBlueTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_CoreBlueTools.h; sourceTree = "<group>"; };
 		24C5431D282B5A7A00A56574 /* FAN_CoreBlueTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_CoreBlueTools.m; sourceTree = "<group>"; };
 		2CBFB622643C4228808D9D90 /* Pods-ClassicsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassicsDemo.release.xcconfig"; path = "Target Support Files/Pods-ClassicsDemo/Pods-ClassicsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		310417D92887F25500F3C728 /* FAN_CircleTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_CircleTransition.h; sourceTree = "<group>"; };
+		310417DA2887F25500F3C728 /* FAN_CircleTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_CircleTransition.m; sourceTree = "<group>"; };
+		310417DC2887F2DA00F3C728 /* FAN_TransitionView2Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_TransitionView2Controller.h; sourceTree = "<group>"; };
+		310417DD2887F2DA00F3C728 /* FAN_TransitionView2Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_TransitionView2Controller.m; sourceTree = "<group>"; };
 		3155ABE8285AE848002909F6 /* FAN_LiveStreamingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_LiveStreamingViewController.h; sourceTree = "<group>"; };
 		3155ABE9285AE848002909F6 /* FAN_LiveStreamingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_LiveStreamingViewController.m; sourceTree = "<group>"; };
 		3155ABED285FDD91002909F6 /* Fan_PowerTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fan_PowerTestViewController.h; sourceTree = "<group>"; };
@@ -193,6 +210,28 @@
 		317486342875D9AC00292062 /* testPlist.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = testPlist.plist; sourceTree = "<group>"; };
 		31BE7EFB287C7A23009F6C84 /* FAN_3DModelShowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_3DModelShowViewController.h; sourceTree = "<group>"; };
 		31BE7EFC287C7A23009F6C84 /* FAN_3DModelShowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_3DModelShowViewController.m; sourceTree = "<group>"; };
+		31BE7F372886F2B5009F6C84 /* FAN_CoreAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_CoreAnimationViewController.h; sourceTree = "<group>"; };
+		31BE7F382886F2B5009F6C84 /* FAN_CoreAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_CoreAnimationViewController.m; sourceTree = "<group>"; };
+		31BE7F3B2886F4CC009F6C84 /* FAN_BaseAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_BaseAnimationView.h; sourceTree = "<group>"; };
+		31BE7F3C2886F4CC009F6C84 /* FAN_BaseAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_BaseAnimationView.m; sourceTree = "<group>"; };
+		31BE7F3E2886F768009F6C84 /* FAN_BaseAnimationHeartCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_BaseAnimationHeartCell.h; sourceTree = "<group>"; };
+		31BE7F3F2886F768009F6C84 /* FAN_BaseAnimationHeartCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_BaseAnimationHeartCell.m; sourceTree = "<group>"; };
+		31BE7F462887011D009F6C84 /* FAN_BaseTransitionAnimationCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_BaseTransitionAnimationCell.h; sourceTree = "<group>"; };
+		31BE7F472887011D009F6C84 /* FAN_BaseTransitionAnimationCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_BaseTransitionAnimationCell.m; sourceTree = "<group>"; };
+		31BE7F49288706BD009F6C84 /* FAN_BaseGroupAnimationCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_BaseGroupAnimationCell.h; sourceTree = "<group>"; };
+		31BE7F4A288706BD009F6C84 /* FAN_BaseGroupAnimationCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_BaseGroupAnimationCell.m; sourceTree = "<group>"; };
+		31BE7F4C28870EEA009F6C84 /* FAN_ScreenShotAnimationCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_ScreenShotAnimationCell.h; sourceTree = "<group>"; };
+		31BE7F4D28870EEA009F6C84 /* FAN_ScreenShotAnimationCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_ScreenShotAnimationCell.m; sourceTree = "<group>"; };
+		31BE7F4F2887B28D009F6C84 /* FAN_CurveAnimationCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_CurveAnimationCell.h; sourceTree = "<group>"; };
+		31BE7F502887B28D009F6C84 /* FAN_CurveAnimationCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_CurveAnimationCell.m; sourceTree = "<group>"; };
+		31BE7F522887D11E009F6C84 /* FAN_TextLayerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_TextLayerCell.h; sourceTree = "<group>"; };
+		31BE7F532887D11E009F6C84 /* FAN_TextLayerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_TextLayerCell.m; sourceTree = "<group>"; };
+		31BE7F552887DF35009F6C84 /* FAN_StereoscopicCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_StereoscopicCell.h; sourceTree = "<group>"; };
+		31BE7F562887DF35009F6C84 /* FAN_StereoscopicCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_StereoscopicCell.m; sourceTree = "<group>"; };
+		31BE7F582887E80C009F6C84 /* FAN_TransitionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_TransitionViewController.h; sourceTree = "<group>"; };
+		31BE7F592887E80C009F6C84 /* FAN_TransitionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_TransitionViewController.m; sourceTree = "<group>"; };
+		31BE7F5B2887E836009F6C84 /* FAN_TransitionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_TransitionCell.h; sourceTree = "<group>"; };
+		31BE7F5C2887E836009F6C84 /* FAN_TransitionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_TransitionCell.m; sourceTree = "<group>"; };
 		62435D95371F511EF436ED3E /* Pods_ClassicsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClassicsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B4E3197918E86E914E7A48 /* Pods-ClassicsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassicsDemo.debug.xcconfig"; path = "Target Support Files/Pods-ClassicsDemo/Pods-ClassicsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -333,6 +372,7 @@
 		2485CDF825ED0C19009D40D4 /* FuncClass */ = {
 			isa = PBXGroup;
 			children = (
+				31BE7F362886F265009F6C84 /* CoreAnimationExample */,
 				31BE7EF9287C79EA009F6C84 /* 3DModelShow */,
 				3174862F2875D40400292062 /* SandBox */,
 				3174861828753E5900292062 /* IM */,
@@ -726,6 +766,63 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		31BE7F362886F265009F6C84 /* CoreAnimationExample */ = {
+			isa = PBXGroup;
+			children = (
+				31BE7F5F2887F1B3009F6C84 /* ToolsObject */,
+				31BE7F452886F9FB009F6C84 /* Controller */,
+				31BE7F3A2886F47D009F6C84 /* View */,
+			);
+			path = CoreAnimationExample;
+			sourceTree = "<group>";
+		};
+		31BE7F3A2886F47D009F6C84 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31BE7F3B2886F4CC009F6C84 /* FAN_BaseAnimationView.h */,
+				31BE7F3C2886F4CC009F6C84 /* FAN_BaseAnimationView.m */,
+				31BE7F3E2886F768009F6C84 /* FAN_BaseAnimationHeartCell.h */,
+				31BE7F3F2886F768009F6C84 /* FAN_BaseAnimationHeartCell.m */,
+				31BE7F462887011D009F6C84 /* FAN_BaseTransitionAnimationCell.h */,
+				31BE7F472887011D009F6C84 /* FAN_BaseTransitionAnimationCell.m */,
+				31BE7F49288706BD009F6C84 /* FAN_BaseGroupAnimationCell.h */,
+				31BE7F4A288706BD009F6C84 /* FAN_BaseGroupAnimationCell.m */,
+				31BE7F4C28870EEA009F6C84 /* FAN_ScreenShotAnimationCell.h */,
+				31BE7F4D28870EEA009F6C84 /* FAN_ScreenShotAnimationCell.m */,
+				31BE7F4F2887B28D009F6C84 /* FAN_CurveAnimationCell.h */,
+				31BE7F502887B28D009F6C84 /* FAN_CurveAnimationCell.m */,
+				31BE7F522887D11E009F6C84 /* FAN_TextLayerCell.h */,
+				31BE7F532887D11E009F6C84 /* FAN_TextLayerCell.m */,
+				31BE7F552887DF35009F6C84 /* FAN_StereoscopicCell.h */,
+				31BE7F562887DF35009F6C84 /* FAN_StereoscopicCell.m */,
+				31BE7F5B2887E836009F6C84 /* FAN_TransitionCell.h */,
+				31BE7F5C2887E836009F6C84 /* FAN_TransitionCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		31BE7F452886F9FB009F6C84 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				31BE7F372886F2B5009F6C84 /* FAN_CoreAnimationViewController.h */,
+				31BE7F382886F2B5009F6C84 /* FAN_CoreAnimationViewController.m */,
+				31BE7F582887E80C009F6C84 /* FAN_TransitionViewController.h */,
+				31BE7F592887E80C009F6C84 /* FAN_TransitionViewController.m */,
+				310417DC2887F2DA00F3C728 /* FAN_TransitionView2Controller.h */,
+				310417DD2887F2DA00F3C728 /* FAN_TransitionView2Controller.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		31BE7F5F2887F1B3009F6C84 /* ToolsObject */ = {
+			isa = PBXGroup;
+			children = (
+				310417D92887F25500F3C728 /* FAN_CircleTransition.h */,
+				310417DA2887F25500F3C728 /* FAN_CircleTransition.m */,
+			);
+			path = ToolsObject;
+			sourceTree = "<group>";
+		};
 		63C552F4FBCA97DEFDA43F40 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -872,39 +969,50 @@
 			files = (
 				3155AC13286300B6002909F6 /* FanWebViewHandleDelegateObject.m in Sources */,
 				317485E32872C44200292062 /* Fan_PlayerView.m in Sources */,
+				310417DB2887F25600F3C728 /* FAN_CircleTransition.m in Sources */,
 				317485EF2872DEDA00292062 /* FAN_LookLiveStreamingViewController.m in Sources */,
 				24C5431A282B4E2600A56574 /* FAN_CoreBlueModuleController.m in Sources */,
 				24AAA2C425EDE5A7001BB124 /* FanEditTableViewCell.m in Sources */,
 				31748620287540D200292062 /* FAN_WebSocket.m in Sources */,
 				3174861C28753EA100292062 /* FAN_IMViewController.m in Sources */,
 				2485CE8325ED16B0009D40D4 /* FanBaseTableViewController.m in Sources */,
+				31BE7F5D2887E836009F6C84 /* FAN_TransitionCell.m in Sources */,
 				3155AC012862B719002909F6 /* FAN_webViewController.m in Sources */,
 				2485CE7B25ED1608009D40D4 /* UILabel+FanExtension.m in Sources */,
 				245308CA25EF5B790070E9AA /* FanBaseCollectionCell.m in Sources */,
 				245308C225EF2EA60070E9AA /* FanScrollUnitCell.m in Sources */,
 				2485CE1225ED0D38009D40D4 /* FanBaseTableViewCell.m in Sources */,
 				245308C625EF2EDC0070E9AA /* FanScrollUnitView.m in Sources */,
+				31BE7F482887011D009F6C84 /* FAN_BaseTransitionAnimationCell.m in Sources */,
 				2485CE0D25ED0D0B009D40D4 /* FanEditCellViewController.m in Sources */,
 				2485CE0325ED0C95009D40D4 /* FanBaseModel.m in Sources */,
+				310417DE2887F2DA00F3C728 /* FAN_TransitionView2Controller.m in Sources */,
 				3155ABEA285AE848002909F6 /* FAN_LiveStreamingViewController.m in Sources */,
+				31BE7F512887B28D009F6C84 /* FAN_CurveAnimationCell.m in Sources */,
 				2485CDE425ED0AD1009D40D4 /* ViewController.m in Sources */,
+				31BE7F542887D11E009F6C84 /* FAN_TextLayerCell.m in Sources */,
 				2485CDDE25ED0AD1009D40D4 /* AppDelegate.m in Sources */,
 				24AAA2BF25EDE44A001BB124 /* FanSelectDelecteView.m in Sources */,
 				2485CE0725ED0CA8009D40D4 /* FanBaseView.m in Sources */,
 				2485CE7D25ED1608009D40D4 /* UIColor+FanExtension.m in Sources */,
 				31BE7EFD287C7A23009F6C84 /* FAN_3DModelShowViewController.m in Sources */,
 				3155ABEF285FDD91002909F6 /* Fan_PowerTestViewController.m in Sources */,
+				31BE7F4B288706BD009F6C84 /* FAN_BaseGroupAnimationCell.m in Sources */,
 				245308BE25EF2C560070E9AA /* FanScrollUnitViewController.m in Sources */,
 				24C5431E282B5A7A00A56574 /* FAN_CoreBlueTools.m in Sources */,
 				2485CE7A25ED1608009D40D4 /* UIView+extension.m in Sources */,
 				3155ABF828618BDD002909F6 /* Fan_ResponseChainController.m in Sources */,
+				31BE7F3D2886F4CC009F6C84 /* FAN_BaseAnimationView.m in Sources */,
 				3174862B2875729300292062 /* FAN_LeftChatCell.m in Sources */,
 				3174862E287572A400292062 /* FAN_RightChatCell.m in Sources */,
 				24AAA22625ED1A3C001BB124 /* FanEditCellModel.m in Sources */,
 				317486332875D43E00292062 /* FAN_SandBoxViewController.m in Sources */,
 				3155ABFD286277A6002909F6 /* Fan_CommonlyAlgorithmController.m in Sources */,
+				31BE7F4E28870EEA009F6C84 /* FAN_ScreenShotAnimationCell.m in Sources */,
 				2485CDEF25ED0AD4009D40D4 /* main.m in Sources */,
+				31BE7F392886F2B5009F6C84 /* FAN_CoreAnimationViewController.m in Sources */,
 				317485B92872732D00292062 /* FAN_LiveViewController.m in Sources */,
+				31BE7F402886F768009F6C84 /* FAN_BaseAnimationHeartCell.m in Sources */,
 				245308CE25EF5C740070E9AA /* FanScrollCollectionCell.m in Sources */,
 				3155ABF3285FDEFC002909F6 /* Fan_CircleProgressView.m in Sources */,
 				2485CDFE25ED0C7E009D40D4 /* FanBaseViewController.m in Sources */,
@@ -913,7 +1021,9 @@
 				317485DF2872B93000292062 /* Fan_LiveView.m in Sources */,
 				317485E62872C6B300292062 /* FAN_PlayerLiveViewController.m in Sources */,
 				245308D525EF73BE0070E9AA /* FanScrollIndicateView.m in Sources */,
+				31BE7F572887DF35009F6C84 /* FAN_StereoscopicCell.m in Sources */,
 				317485EC2872DEC000292062 /* FAN_StartLiveStreamingViewController.m in Sources */,
+				31BE7F5A2887E80C009F6C84 /* FAN_TransitionViewController.m in Sources */,
 				317485B62872730300292062 /* FAN_LiveListViewController.m in Sources */,
 				317485E92872DC0F00292062 /* FAN_TestLiveStreamingViewController.m in Sources */,
 				2485CE7925ED1608009D40D4 /* UIView+FanExtension.m in Sources */,

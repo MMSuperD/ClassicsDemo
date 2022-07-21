@@ -8,7 +8,9 @@
 #import <UIKit/UIKit.h>
 #import <FANOCBaseConfig/FANOCBaseConfig.h>
 
-@interface ViewController : UIViewController
+//@interface ViewController : UIViewController
+@interface ViewController : FAN_BaseViewController
+
 
 
 @end
