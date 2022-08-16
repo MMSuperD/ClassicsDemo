@@ -85,6 +85,7 @@
 		31BE7F572887DF35009F6C84 /* FAN_StereoscopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BE7F562887DF35009F6C84 /* FAN_StereoscopicCell.m */; };
 		31BE7F5A2887E80C009F6C84 /* FAN_TransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BE7F592887E80C009F6C84 /* FAN_TransitionViewController.m */; };
 		31BE7F5D2887E836009F6C84 /* FAN_TransitionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BE7F5C2887E836009F6C84 /* FAN_TransitionCell.m */; };
+		31E843F528A4FF73002E4850 /* FAN_VPNManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E843F428A4FF73002E4850 /* FAN_VPNManager.m */; };
 		FEF73A61DD929F6098EA3E26 /* Pods_ClassicsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62435D95371F511EF436ED3E /* Pods_ClassicsDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -232,6 +233,8 @@
 		31BE7F592887E80C009F6C84 /* FAN_TransitionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_TransitionViewController.m; sourceTree = "<group>"; };
 		31BE7F5B2887E836009F6C84 /* FAN_TransitionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_TransitionCell.h; sourceTree = "<group>"; };
 		31BE7F5C2887E836009F6C84 /* FAN_TransitionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_TransitionCell.m; sourceTree = "<group>"; };
+		31E843F328A4FF73002E4850 /* FAN_VPNManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAN_VPNManager.h; sourceTree = "<group>"; };
+		31E843F428A4FF73002E4850 /* FAN_VPNManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAN_VPNManager.m; sourceTree = "<group>"; };
 		62435D95371F511EF436ED3E /* Pods_ClassicsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClassicsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B4E3197918E86E914E7A48 /* Pods-ClassicsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassicsDemo.debug.xcconfig"; path = "Target Support Files/Pods-ClassicsDemo/Pods-ClassicsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -445,6 +448,7 @@
 		2485CE6825ED15C4009D40D4 /* PublicTools */ = {
 			isa = PBXGroup;
 			children = (
+				31E843F228A4FF39002E4850 /* Tools */,
 				2485CE6925ED15E3009D40D4 /* category */,
 			);
 			path = PublicTools;
@@ -823,6 +827,15 @@
 			path = ToolsObject;
 			sourceTree = "<group>";
 		};
+		31E843F228A4FF39002E4850 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				31E843F328A4FF73002E4850 /* FAN_VPNManager.h */,
+				31E843F428A4FF73002E4850 /* FAN_VPNManager.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		63C552F4FBCA97DEFDA43F40 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -993,6 +1006,7 @@
 				31BE7F542887D11E009F6C84 /* FAN_TextLayerCell.m in Sources */,
 				2485CDDE25ED0AD1009D40D4 /* AppDelegate.m in Sources */,
 				24AAA2BF25EDE44A001BB124 /* FanSelectDelecteView.m in Sources */,
+				31E843F528A4FF73002E4850 /* FAN_VPNManager.m in Sources */,
 				2485CE0725ED0CA8009D40D4 /* FanBaseView.m in Sources */,
 				2485CE7D25ED1608009D40D4 /* UIColor+FanExtension.m in Sources */,
 				31BE7EFD287C7A23009F6C84 /* FAN_3DModelShowViewController.m in Sources */,
